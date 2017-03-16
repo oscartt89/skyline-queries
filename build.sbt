@@ -1,4 +1,4 @@
-name := "akka-clustering"
+name := "skyline-queries"
 
 version := "0.1"
 
