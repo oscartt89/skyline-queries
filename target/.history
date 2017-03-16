@@ -1,0 +1,500 @@
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile 
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+compile
+run
+run 10
+run 5
+compile
+compile -deprecation
+compile --deprecation
+run
+run 5
+compile
+run
+run 5
+compile
+run 10
+compile
+run
+run 5
+compile
+run
+run 3
+compile
+run
+run 5
+compile
+run 5
+compile
+run 5
+compile
+run 5
+run 100
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+run 200
+run 3
+compile
+run 6
+compil
+compile
+run 3
+compile
+run 3
+compile
+run 6
+compile 
+run
+run 6
+run 3
+run 5
+run 10
+run
+run 6
+compile
+run
+run 7
+run 10
+compile
+run 6
+compile
+run 6
+compile
+run
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+make
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+q
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run
+run 6
+run
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile
+run 6
+compile 
+run 6
+compile 
+run 6
+compile 
+run 6
+compile 
+run 6
+compile 
+run 6
+compile 
+run 10
+compile 
+run 10
+run 4
+compile
+run 4
+run 4 6
+run 4 7
+run 10 7
+run 10 20
+run 4 20
+run 200 20
+run 200 200
+run 2000 100
+run 200000 100
+compile
+run 200000 100
+run 20 100
+compile
+run 20 100
+compile
+run 4 10 2
+run 4 20 2
+run 6 20 2
+run 10 20 2
+compile
+run 10 20 2
+compile
+run 10 20 2
+run 100 20 2
+run 200 20 2
+compile
+run 200 3 20 10
+compile
+run 200 3 20 10
+compile
+run 200 3 20 10
+compile
+run
+run 200 3 20 10
+run 4 3 20 2
+run 4 2 20 2
+run 6 2 20 2
+compile
+run 6 2 20 2
+run 4 2 20 2
+run 8 2 20 2
+run 8 2 10 2
+run 8 2 8 2
+run 3000 2 8 2
+compile
+run 3000 2 3000 2
+run 300000 2 3000 2
+run 300000 2 3000 4
+compile
+run 300000 4 3000 4
+run 300000 2 3000 4
+run 300000 2 3000 8
+run 300000 2 3000 1
+assembly
+run 3000000 2 3000 1
+run 3000000 2 3000 2
+run 3000000 2 3000 1
+run 3000000 2 3000 4
+run 3000000 2 3000 8
+run 3000000 3 3000 8
+run 3000000 3 3000 4
+run 3000000 3 3000 1
+run 3000000 3 3000 2
+run 3000000 3 3000 4
+run 3000000 4 3000 1
+run 3000000 4 3000 2
+run 3000000 4 3000 4
+run 3000000 4 3000 2
+run 3000000 4 3000 1
+run 100000 2 3000 1
+run 100000 2 3000 2
+run 100000 2 3000 4
+run 100000 2 3000 2
+run 200000 2 3000 1
+run 200000 2 3000 2
+run 200000 2 3000 4
+run 300000 2 3000 1
+run 300000 2 3000 2
+run 300000 2 3000 4
+run 400000 2 3000 1
+run 400000 2 3000 2
+run 400000 2 3000 4
+run 500000 2 3000 1
+run 500000 2 3000 2
+run 500000 2 3000 4
+run 600000 2 3000 1
+run 600000 2 3000 2
+run 600000 2 3000 4
+run 700000 2 3000 1
+run 700000 2 3000 2
+run 700000 2 3000 4
+run 700000 2 3000 5
+run 700000 2 3000 4
+run 700000 2 3000 
+run 700000 2 3000 5
+run 700000 2 3000 4
+run 800000 2 3000 1
+run 800000 2 3000 2
+run 800000 2 3000 4
+run 1000000 2 3000 1
+run 900000 2 3000 1
+run 900000 2 3000 2
+run 900000 2 3000 4
+run 1000000 2 3000 1
+run 1000000 2 3000 2
+run 1000000 2 3000 4
+run 1500000 2 3000 1
+run 1500000 2 3000 2
+run 1500000 2 3000 4
+run 5000000 2 3000 1
+run 5000000 2 3000 2
+run 5000000 2 3000 4
+run 5000000 2 3000 8
+run 10000000 2 3000 1
+run 10000000 2 3000 2
+run 10000000 2 3000 4
+run 20000000 2 3000 1
+run 100000 3 3000 1
+run 100000 3 3000 2
+run 100000 3 3000 4
+run 200000 3 3000 1
+run 200000 3 3000 2
+run 200000 3 3000 4
+run 300000 3 3000 1
+run 300000 3 3000 2
+run 300000 3 3000 4
+run 400000 3 3000 1
+run 400000 3 3000 2
+run 400000 3 3000 4
+run 500000 3 3000 1
+run 500000 3 3000 2
+run 500000 3 3000 1
+run 500000 3 3000 2
+run 500000 3 3000 4
+run 600000 3 3000 1
+run 600000 3 3000 2
+run 600000 3 3000 4
+run 700000 3 3000 1
+run 700000 3 3000 2
+run 700000 3 3000 4
+run 800000 3 3000 1
+run 800000 3 3000 2
+run 800000 3 3000 4
+run 900000 3 3000 1
+run 900000 3 3000 2
+run 900000 3 3000 4
+run 1000000 3 3000 1
+run 1000000 3 3000 2
+run 1000000 3 3000 4
+run 1500000 3 3000 4
+run 1500000 3 3000 1
+run 1500000 3 3000 2
+run 5000000 3 3000 1
+run 5000000 3 3000 2
+run 5000000 3 3000 4
+compile
+run 5000000 3 3000 4
+compile
+run 10000000 3 3000 1
+run 10000000 3 3000 2
+run 10000000 3 3000 4
+run 1000000 4 3000 4
+run 1000000 4 3000 1
+run 1000000 4 3000 2
+run 1000000 4 3000 4
+run 1000000 4 3000 2
+run 1000000 4 3000 1
+run 1000000 4 3000 2
+run 1000000 4 3000 4
+run 1500000 4 3000 4
+run 1500000 4 3000 1
+run 1500000 4 3000 2
+run 1500000 4 3000 4
+run 1500000 4 3000 8
+run 5000000 4 3000 1
+run 5000000 4 3000 2
+run 5000000 4 3000 1
+run 5000000 4 3000 4
+run 5000000 4 3000 2
+run 10000000 4 3000 1
+run 10000000 4 3000 2
+run 10000000 4 3000 4
+run 10000000 4 3000 1
+run 100000 4 3000 1
+run 100000 4 3000 2
+run 100000 4 3000 1
+run 100000 4 3000 4
+compile
+run 100000 4 3000 4
+run 100000 4 3000 2
+run 100000 4 3000 4
+run 100000 4 3000 1
+run 500000 4 3000 1
+run 500000 4 3000 2
+run 500000 4 3000 4
+run 10 4 3000 4
+compile
+run 10 4 3000 4
+compile
+run 10 4 3000 4
+run 500000 4 3000 4
+run 750000 4 3000 1
+run 750000 4 3000 2
+run 750000 4 3000 4
+run 100000 5 3000 1
+run 100000 5 3000 2
+run 100000 5 3000 4
+run 200000 5 3000 4
+compile
+run 200000 5 3000 4
+compile
+run 200000 5 3000 4
+compile
+run 2000 5 3000 4
+run 5 5 3000 4
+run 1000 5 3000 4
+run 100 5 3000 4
+run 500 5 3000 4
+compile
+run 500 5 3000 4
+compile
+run 500 5 3000 2
+run 500 5 3000 4
+run 500 5 3000 2
+run 5000 5 3000 2
+run 50 5 3000 2
+run 50 5 3000 4
+run 100 5 3000 4
+run 200 5 3000 4
+run3200 5 3000 4
+run 300 5 3000 4
+run 400 5 3000 4
+compile
+run 400 5 3000 4
+run 4000 5 3000 4
+run 10000000 4 3000 1
+run 100000 5 3000 1
+run 100000 5 3000 2
+run 100000 5 3000 3
+run 100000 5 3000 4
+run 500000 5 3000 1
+run 500000 5 3000 2
+compile
+run 500000 5 3000 1
+run 500000 5 3000 2
+run 500000 5 3000 4
+compile
+run 500000 5 3000 4
+run 500000 5 3000 2
+run 500000 5 3000 1
+run 500000 5 3000 8
+run 750000 5 3000 1
+run 750000 5 3000 2
+run 750000 5 3000 4
+run 1000000 5 3000 1
+run 1000000 5 3000 2
+run 1000000 5 3000 4
+run 1500000 5 3000 1
+run 1500000 5 3000 2
+run 1500000 5 3000 4
+run 100000 6 3000 1
+run 100000 6 3000 2
+run 100000 6 3000 4
+run 500000 6 3000 1
+q
