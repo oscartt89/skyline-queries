@@ -22,7 +22,7 @@ class Writer(topic: String, nWorkers: Int) extends Actor {
     case Worker.PointOption(w, p) => p match {
     	case Some(value) => {
     		if(include(w, value)) {
-    			println("writer added (" + value + "). current globalSkyline: " + globalSkyline)
+    			//println("writer added (" + value + "). current globalSkyline: " + globalSkyline)
     		}
     	}
     	case None => {}//println("None")
