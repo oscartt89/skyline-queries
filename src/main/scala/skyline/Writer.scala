@@ -47,7 +47,7 @@ class Writer(topic: String, nWorkers: Int) extends Actor {
           //by the included one
           tmp += i
         } else {
-    		  tmp.foreach(p => if(!dominated && p.dominates(i)) dominated=true)
+    		  dominated = tmp.exists(_.dominates(i))
       		if(!dominated) {
 //    			println("writer adding point2: [" + i + "]. globalSkyline: " + globalSkyline.mkString(", "))
       			tmp = tmp.filter(!i.dominates(_))
