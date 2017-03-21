@@ -14,15 +14,15 @@ object Writer {
 class Writer(topic: String, nWorkers: Int) extends Actor {
   val mediator = DistributedPubSub(context.system).mediator
   var n = nWorkers
-  var globalSkyline: SortedSet[Point] = SortedSet.empty[Point]
+  var globalSkyline: Map[String, SortedSet[Point]] = Map[String, SortedSet[Point]]()
 
   mediator ! Subscribe(topic, self)
 
   def receive = {
-    case Worker.PointOption(p) => p match {
+    case Worker.PointOption(w, p) => p match {
     	case Some(value) => {
-    		if(include(value)) {
-    			//println("writer added (" + value + "). current globalSkyline: " + globalSkyline.mkString(", "))
+    		if(include(w, value)) {
+    			println("writer added (" + value + "). current globalSkyline: " + globalSkyline)
     		}
     	}
     	case None => {}//println("None")
@@ -34,21 +34,30 @@ class Writer(topic: String, nWorkers: Int) extends Actor {
     }
   }
 
-  def include (i: Point): Boolean = {
+  def include (w: String, i: Point): Boolean = {
     var dominated = false
-  	if (globalSkyline.size == 0) {
+  	if (!globalSkyline.contains(w)) {
 //  		println("writer adding point: [" + i + "]")
-  		globalSkyline += i
+  		globalSkyline = globalSkyline + (w -> (SortedSet[Point](i)))
   	} else {
-  		globalSkyline.foreach(p => if(!dominated && p.dominates(i)) dominated=true)
-  		if(!dominated) {
-//  			println("writer adding point2: [" + i + "]. globalSkyline: " + globalSkyline.mkString(", "))
-  			globalSkyline = globalSkyline.filter(!i.dominates(_))
-  			globalSkyline += i
-//  			println("writer added point: [" + i + "]. globalSkyline (after filtering): " + globalSkyline.mkString(", "))
-  		} else {
-//  			print("writer point: [" + i + "] dominated by the globalSkyline: " + globalSkyline.mkString(", "))
-  		}
+      for((ww, local) <- globalSkyline) {
+        var tmp = local
+        if(w == ww){
+          //Here just add the point without checking, and then filters the points dominated
+          //by the included one
+          tmp += i
+        } else {
+    		  tmp.foreach(p => if(!dominated && p.dominates(i)) dominated=true)
+      		if(!dominated) {
+//    			println("writer adding point2: [" + i + "]. globalSkyline: " + globalSkyline.mkString(", "))
+      			tmp = tmp.filter(!i.dominates(_))
+//     			println("writer added point: [" + i + "]. globalSkyline (after filtering): " + globalSkyline.mkString(", "))
+      		} else {
+//    			print("writer point: [" + i + "] dominated by the globalSkyline: " + globalSkyline.mkString(", "))
+      		}
+        }
+        globalSkyline = globalSkyline + (ww -> tmp)
+      }
   	}
     !dominated
   }

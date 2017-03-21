@@ -10,7 +10,7 @@ import scala.collection.immutable.SortedSet
 object Worker {
   def props(in: String, out: String, name: String) = Props(new Worker(in, out, name))
   case class Next()
-  case class PointOption(value: Option[Point])
+  case class PointOption(worker: String, value: Option[Point])
 }
 
 class Worker(in: String, out: String, name: String) extends Actor {
@@ -35,7 +35,7 @@ class Worker(in: String, out: String, name: String) extends Actor {
     if (localSkyline.size == 0) {
 //      println(name + " adding point: [" + i + "]")
       localSkyline += i
-      Worker.PointOption(Some(i))
+      Worker.PointOption(name, Some(i))
     } else {
       var dominated = false
       localSkyline.foreach(p => if(!dominated && p.dominates(i)) dominated=true)
@@ -45,10 +45,10 @@ class Worker(in: String, out: String, name: String) extends Actor {
         localSkyline = localSkyline.filter(!i.dominates(_))
         localSkyline += i
 //        println(name + " after filtering. localSkyline: " + localSkyline.mkString(", "))
-        Worker.PointOption(Some(i))
+        Worker.PointOption(name, Some(i))
       } else {
 //        println(name + " point: [" + i + "] dominated by the localSkyline:" + localSkyline.mkString(", "))
-        Worker.PointOption(None)
+        Worker.PointOption(name, None)
       }
     }
   }
