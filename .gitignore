@@ -60,6 +60,7 @@ project/akka-build.properties
 project/boot/*
 project/plugins/project
 redis/
+target/
 reports
 run-codefellow
 schoir.props
