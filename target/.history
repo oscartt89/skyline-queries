@@ -1,6 +1,4 @@
 compile
-run 10
-compile
 run
 run 5
 compile
@@ -498,3 +496,5 @@ compile
 run 10000000 3 3000 1
 compile
 run 10000000 3 3000 1
+compile
+run 10000000 3 3000 4

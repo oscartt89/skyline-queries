@@ -40,7 +40,7 @@ class Writer(topic: String, nWorkers: Int) extends Actor {
 //  		println("writer adding point: [" + i + "]")
   		globalSkyline += i
   	} else {
-  		globalSkyline.foreach(p => if(!dominated && p.dominates(i)) dominated=true)
+  		dominated = globalSkyline.exists(_.dominates(i))
   		if(!dominated) {
 //  			println("writer adding point2: [" + i + "]. globalSkyline: " + globalSkyline.mkString(", "))
   			globalSkyline = globalSkyline.filter(!i.dominates(_))
