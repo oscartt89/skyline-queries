@@ -37,8 +37,7 @@ class Worker(in: String, out: String, name: String) extends Actor {
       localSkyline += i
       Worker.PointOption(Some(i))
     } else {
-      var dominated = false
-      localSkyline.foreach(p => if(!dominated && p.dominates(i)) dominated=true)
+      var dominated = localSkyline.exists(_.dominates(i))
       if(!dominated) {
 //        println(name + " adding point2: [" + i + "]")
 //        println(name + " before filtering. localSkyline: " + localSkyline.mkString(", "))

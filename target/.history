@@ -1,16 +1,4 @@
 compile
-run
-run 10
-run 5
-compile
-compile -deprecation
-compile --deprecation
-run
-run 5
-compile
-run
-run 5
-compile
 run 10
 compile
 run
@@ -498,3 +486,15 @@ compile
 run 750000 8 3000 2
 compile
 run 750000 8 3000 2
+compile
+run 10000000 3 3000 1
+compile
+run 10000000 3 3000 1
+compile
+run 10000000 3 3000 1
+compile
+run 10000000 3 3000 1
+compile
+run 10000000 3 3000 1
+compile
+run 10000000 3 3000 1
