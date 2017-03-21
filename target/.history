@@ -1,58 +1,3 @@
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile 
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
-compile
-run
 compile
 run
 run 10
@@ -498,3 +443,58 @@ run 100000 6 3000 2
 run 100000 6 3000 4
 run 500000 6 3000 1
 q
+run 500000 6 100 1
+run 500000 6 100 2
+run 500000 6 100 4
+run 500000 6 3000 1
+run 500000 6 3000 2
+run 500000 6 3000 4
+run 500000 6 3000 1
+run 500000 6 3000 2
+run 500000 6 3000 1
+run 500000 6 3000 2
+run 500000 6 3000 4
+run 100000 6 3000 1
+run 100000 6 3000 2
+run 100000 6 3000 4
+run 750000 6 3000 1
+run 750000 6 3000 2
+run 750000 6 3000 4
+run 1000000 6 3000 1
+run 1000000 6 3000 2
+run 1000000 6 3000 4
+run 1500000 6 3000 1
+run 1500000 6 3000 2
+run 1500000 6 3000 4
+run 1500000 6 3000 3
+run 100000 7 3000 1
+run 100000 7 3000 2
+run 100000 7 3000 1
+run 100000 7 3000 2
+run 100000 7 3000 4
+run 500000 7 3000 1
+run 500000 7 3000 2
+run 500000 7 3000 4
+run 750000 7 3000 1
+run 750000 7 3000 2
+run 750000 7 3000 4
+run 1000000 7 3000 1
+run 1000000 7 3000 2
+run 1000000 7 3000 4
+run 1500000 7 3000 1
+run 1500000 7 3000 2
+run 1500000 7 3000 4
+run 100000 8 3000 1
+run 100000 8 3000 2
+run 100000 8 3000 4
+run 500000 8 3000 1
+run 500000 8 3000 2
+run 500000 8 3000 4
+run 750000 8 3000 1
+run 750000 8 3000 2
+compile
+run 750000 8 3000 2
+compile
+run 750000 8 3000 2
+compile
+run 750000 8 3000 2

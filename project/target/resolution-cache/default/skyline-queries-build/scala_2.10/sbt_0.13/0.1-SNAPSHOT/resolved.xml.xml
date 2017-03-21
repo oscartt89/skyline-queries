@@ -4,7 +4,7 @@
 		module="skyline-queries-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170316202247"
+		publication="20170319162712"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

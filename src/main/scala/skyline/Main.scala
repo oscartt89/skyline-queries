@@ -31,12 +31,12 @@ object Main {
     system1.actorOf(Streamer.props("in", stream))
     system1.actorOf(Writer.props("out", nWorkers))
 
-    /*Thread.sleep(5000)
-    val system2 = ActorSystem(systemName)
+    //Thread.sleep(5000)
+    /*val system2 = ActorSystem(systemName)
     Cluster(system2).join(joinAddress)
-    system2.actorOf(Props[Worker], "worker3")
+    system2.actorOf(Worker.props("in", "out", "worker" + (nWorkers+1)))*/
 
-    val system3 = ActorSystem(systemName)
+    /*val system3 = ActorSystem(systemName)
     Cluster(system3).join(joinAddress)
     system3.actorOf(Props[Worker], "worker4")
     system3.actorOf(Props[Worker], "worker5")*/

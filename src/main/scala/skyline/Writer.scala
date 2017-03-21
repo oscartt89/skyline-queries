@@ -22,7 +22,7 @@ class Writer(topic: String, nWorkers: Int) extends Actor {
     case Worker.PointOption(p) => p match {
     	case Some(value) => {
     		if(include(value)) {
-    			println("writer added (" + value + "). current globalSkyline: " + globalSkyline.mkString(", "))
+    			//println("writer added (" + value + "). current globalSkyline: " + globalSkyline.mkString(", "))
     		}
     	}
     	case None => {}//println("None")
@@ -35,23 +35,21 @@ class Writer(topic: String, nWorkers: Int) extends Actor {
   }
 
   def include (i: Point): Boolean = {
-	if (globalSkyline.size == 0) {
-//		println("writer adding point: [" + i + "]")
-		globalSkyline += i
-		true
-	} else {
-		var dominated = false
-		globalSkyline.foreach(p => if(!dominated && p.dominates(i)) dominated=true)
-		if(!dominated) {
-//			println("writer adding point2: [" + i + "]. globalSkyline: " + globalSkyline.mkString(", "))
-			globalSkyline = globalSkyline.filter(!i.dominates(_))
-			globalSkyline += i
-//			println("writer added point: [" + i + "]. globalSkyline (after filtering): " + globalSkyline.mkString(", "))
-			true
-		} else {
-//			print("writer point: [" + i + "] dominated by the globalSkyline: " + globalSkyline.mkString(", "))
-			false
-		}
-	}
+    var dominated = false
+  	if (globalSkyline.size == 0) {
+//  		println("writer adding point: [" + i + "]")
+  		globalSkyline += i
+  	} else {
+  		globalSkyline.foreach(p => if(!dominated && p.dominates(i)) dominated=true)
+  		if(!dominated) {
+//  			println("writer adding point2: [" + i + "]. globalSkyline: " + globalSkyline.mkString(", "))
+  			globalSkyline = globalSkyline.filter(!i.dominates(_))
+  			globalSkyline += i
+//  			println("writer added point: [" + i + "]. globalSkyline (after filtering): " + globalSkyline.mkString(", "))
+  		} else {
+//  			print("writer point: [" + i + "] dominated by the globalSkyline: " + globalSkyline.mkString(", "))
+  		}
+  	}
+    !dominated
   }
 }
