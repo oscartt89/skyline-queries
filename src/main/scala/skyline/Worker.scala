@@ -5,7 +5,7 @@ import akka.actor.ActorRef
 import akka.actor.Props
 import akka.cluster.pubsub.DistributedPubSub
 import akka.cluster.pubsub.DistributedPubSubMediator.{Publish, Subscribe}
-import scala.collection.immutable.SortedSet
+import scala.collection.mutable.SortedSet
 
 object Worker {
   def props(in: String, out: String, name: String) = Props(new Worker(in, out, name))

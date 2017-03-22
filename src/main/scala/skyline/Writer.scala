@@ -5,7 +5,8 @@ import akka.actor.ActorRef
 import akka.actor.Props
 import akka.cluster.pubsub.DistributedPubSub
 import akka.cluster.pubsub.DistributedPubSubMediator.{Publish, Subscribe}
-import scala.collection.immutable.SortedSet
+import scala.collection.mutable.SortedSet
+import scala.collection.mutable.Map
 
 object Writer {
   def props(topic: String, nWorkers: Int) = Props(new Writer(topic, nWorkers))
@@ -21,7 +22,7 @@ class Writer(topic: String, nWorkers: Int) extends Actor {
   def receive = {
     case Worker.IdentifiedPoint(w, p) => {
   		if(include(w, p)) {
-  			//println("writer added (" + value + "). current globalSkyline: " + globalSkyline)
+  			//println("writer added (" + p + "). current globalSkyline: " + globalSkyline)
   		}
     }
     case Streamer.Done() => {
@@ -35,13 +36,14 @@ class Writer(topic: String, nWorkers: Int) extends Actor {
     var dominated = false
   	if (!globalSkyline.contains(w)) {
 //  		println("writer adding point: [" + i + "]")
-  		globalSkyline = globalSkyline + (w -> (SortedSet[Point](i)))
+  		globalSkyline += (w -> (SortedSet[Point](i)))
   	} else {
       for((ww, local) <- globalSkyline) {
         var tmp = local
         if(w == ww){
           //Here just add the point without checking, and then filters the points dominated
           //by the included one
+          tmp = tmp.filter(!i.dominates(_))
           tmp += i
         } else {
     		  dominated = tmp.exists(_.dominates(i))
@@ -53,7 +55,7 @@ class Writer(topic: String, nWorkers: Int) extends Actor {
 //    			print("writer point: [" + i + "] dominated by the globalSkyline: " + globalSkyline.mkString(", "))
       		}
         }
-        globalSkyline = globalSkyline + (ww -> tmp)
+        globalSkyline += (w -> tmp)
       }
   	}
     !dominated
