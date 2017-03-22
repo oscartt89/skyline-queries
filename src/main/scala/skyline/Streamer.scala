@@ -11,6 +11,7 @@ object Streamer {
   def props(topic: String, stream: Stream[Point]): Props = Props(classOf[Streamer], topic, stream)
 
   case class SendNext(to: ActorRef)
+  case class Filter(origin: String, p: Point)
   case class Done()
 }
 
@@ -21,15 +22,17 @@ class Streamer(topic: String, stream: Stream[Point]) extends Actor {
   mediator ! Subscribe(topic, self)
 
   def receive = {
-    case Streamer.SendNext(to) =>
+    case Streamer.SendNext(to) => {
       if(iterator.hasNext) {
         val point = iterator.next()
-//        println("Streamer sending point: " + point)
+        //println("Streamer sending point: " + point)
         to ! point
       } else {
         to ! Streamer.Done()
         //println("stream empty. sending shutdown message to the workers")
+        context.system.terminate()
       }
+    }
   }
 
 }

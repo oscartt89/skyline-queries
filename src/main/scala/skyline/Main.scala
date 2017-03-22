@@ -16,7 +16,10 @@ object Main {
 
     val systemName = "SkylineApp"
     val r1 = new Random(1)
+    val t0 = System.currentTimeMillis
     val stream = make(args(0).toInt, args(1).toInt, args(2).toInt, r1)
+    val t1 = System.currentTimeMillis
+    println("Building up the stream: " + (t1 - t0) / 1000.0 + "(s)")
     val nWorkers = args(3).toInt
 
     //val stream = Point(Array(3, 3)) #:: Point(Array(4, 2)) #:: Point(Array(1, 3)) #:: Point(Array(2, 2)) #:: Point(Array(4, 1)) #:: Stream.empty
@@ -26,10 +29,9 @@ object Main {
     Cluster(system1).join(joinAddress)
     system1.actorOf(Props[MemberListener], "memberListener")
     for(i <- 1 to nWorkers){
-        system1.actorOf(Worker.props("in", "out", "worker" + i))
+        system1.actorOf(Worker.props("in", "worker" + i))
     }
     system1.actorOf(Streamer.props("in", stream))
-    system1.actorOf(Writer.props("out", nWorkers))
 
     //Thread.sleep(5000)
     /*val system2 = ActorSystem(systemName)

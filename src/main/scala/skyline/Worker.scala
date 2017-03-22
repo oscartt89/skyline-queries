@@ -4,18 +4,20 @@ import akka.actor.Actor
 import akka.actor.ActorRef
 import akka.actor.Props
 import akka.cluster.pubsub.DistributedPubSub
-import akka.cluster.pubsub.DistributedPubSubMediator.{Publish, Subscribe}
+import akka.cluster.pubsub.DistributedPubSubMediator.{Publish, Put, SendToAll}
 import scala.collection.mutable.SortedSet
 
 object Worker {
-  def props(in: String, out: String, name: String) = Props(new Worker(in, out, name))
+  def props(in: String, name: String) = Props(new Worker(in, name))
   case class Next()
   case class IdentifiedPoint(worker: String, value: Point)
 }
 
-class Worker(in: String, out: String, name: String) extends Actor {
+class Worker(in: String, name: String) extends Actor {
   val mediator = DistributedPubSub(context.system).mediator
   var localSkyline: SortedSet[Point] = SortedSet.empty[Point]
+
+  //mediator ! Put(self)
 
   self ! Worker.Next()
 
@@ -25,16 +27,26 @@ class Worker(in: String, out: String, name: String) extends Actor {
       val point = work(i)
       point match {
         case Some(value) => {
-          mediator ! Publish(out, Worker.IdentifiedPoint(name, value))
+          context.actorSelection("../**") ! Streamer.Filter(name, value)
+          //mediator ! SendToAll(path = "../**", msg = Streamer.Filter(name, value), allButSelf = false)
+          //mediator ! Publish(in, Streamer.Filter(name, value))
+          //self ! Streamer.Filter(name, value)
         }
         case None => {}
       }
       self ! Worker.Next()
     }
+    case Streamer.Filter(w, value) => {
+      if(w != name){
+        //println(name + "received point " + value + "to filter the localSkyline " + localSkyline.mkString(", "))
+        localSkyline = localSkyline.filter(!value.dominates(_))
+      }
+    }
     case Streamer.Done() => {
       //Sending finalisation message to the writer
       //println(name + " forwarding the shutdown message to the writer")
-      mediator ! Publish(out, Streamer.Done())
+      //println(localSkyline.mkString(", "))
+      context.stop(self)
     }
   }
 
