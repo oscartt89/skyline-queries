@@ -19,13 +19,10 @@ class Writer(topic: String, nWorkers: Int) extends Actor {
   mediator ! Subscribe(topic, self)
 
   def receive = {
-    case Worker.PointOption(w, p) => p match {
-    	case Some(value) => {
-    		if(include(w, value)) {
-    			//println("writer added (" + value + "). current globalSkyline: " + globalSkyline)
-    		}
-    	}
-    	case None => {}//println("None")
+    case Worker.IdentifiedPoint(w, p) => {
+  		if(include(w, p)) {
+  			//println("writer added (" + value + "). current globalSkyline: " + globalSkyline)
+  		}
     }
     case Streamer.Done() => {
     	n = n - 1

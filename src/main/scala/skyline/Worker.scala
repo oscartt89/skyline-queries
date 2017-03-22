@@ -10,7 +10,7 @@ import scala.collection.immutable.SortedSet
 object Worker {
   def props(in: String, out: String, name: String) = Props(new Worker(in, out, name))
   case class Next()
-  case class PointOption(worker: String, value: Option[Point])
+  case class IdentifiedPoint(worker: String, value: Point)
 }
 
 class Worker(in: String, out: String, name: String) extends Actor {
@@ -22,32 +22,40 @@ class Worker(in: String, out: String, name: String) extends Actor {
   def receive = {
     case Worker.Next() => mediator ! Publish(in, Streamer.SendNext(self))
     case i: Point => {
-      mediator ! Publish(out, work(i))
+      val point = work(i)
+      point match {
+        case Some(value) => {
+          mediator ! Publish(out, Worker.IdentifiedPoint(name, value))
+        }
+        case None => {}
+      }
       self ! Worker.Next()
     }
     case Streamer.Done() => {
+      //Sending finalisation message to the writer
       //println(name + " forwarding the shutdown message to the writer")
       mediator ! Publish(out, Streamer.Done())
     }
   }
 
-  def work(i: Point): Worker.PointOption = {
+  def work(i: Point): Option[Point] = {
     if (localSkyline.size == 0) {
-//      println(name + " adding point: [" + i + "]")
+      //println(name + " adding point: [" + i + "]")
       localSkyline += i
-      Worker.PointOption(name, Some(i))
+      Some(i)
     } else {
       var dominated = localSkyline.exists(_.dominates(i))
       if(!dominated) {
-//        println(name + " adding point2: [" + i + "]")
-//        println(name + " before filtering. localSkyline: " + localSkyline.mkString(", "))
+        //println(name + " adding point2: [" + i + "]")
+        //println(name + " before filtering. localSkyline: " + localSkyline.mkString(", "))
         localSkyline = localSkyline.filter(!i.dominates(_))
         localSkyline += i
-//        println(name + " after filtering. localSkyline: " + localSkyline.mkString(", "))
-        Worker.PointOption(name, Some(i))
+        //println(name + " after filtering. localSkyline: " + localSkyline.mkString(", "))
+        Some(i)
       } else {
-//        println(name + " point: [" + i + "] dominated by the localSkyline:" + localSkyline.mkString(", "))
-        Worker.PointOption(name, None)
+        //Point dominated
+        //println(name + " point: [" + i + "] dominated by the localSkyline:" + localSkyline.mkString(", "))
+        None
       }
     }
   }
