@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mRunning skyline.Main 10000000 2 3000 1[0m
+[0m[[0minfo[0m] [0mRunning skyline.Main 750000 8 3000 4[0m
 [0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
 [0m[[0mdebug[0m] [0m  Classpath:[0m
 [0m[[0mdebug[0m] [0m	/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes[0m
@@ -11,12 +11,10 @@
 [0m[[0mdebug[0m] [0m	/home/otorreno/.ivy2/cache/io.netty/netty/bundles/netty-3.10.3.Final.jar[0m
 [0m[[0mdebug[0m] [0m	/home/otorreno/.ivy2/cache/org.uncommons.maths/uncommons-maths/jars/uncommons-maths-1.2.2a.jar[0m
 [0m[[0mdebug[0m] [0m	/home/otorreno/.ivy2/cache/com.typesafe.akka/akka-cluster-tools_2.11/jars/akka-cluster-tools_2.11-2.4.0.jar[0m
-[0m[[0mdebug[0m] [0mWaiting for thread run-main-c to terminate.[0m
-[0m[[0mdebug[0m] [0m	Thread run-main-c exited.[0m
-[0m[[0mdebug[0m] [0mWaiting for thread SkylineApp-akka.actor.default-dispatcher-16 to terminate.[0m
-[0m[[0mdebug[0m] [0m	Thread SkylineApp-akka.actor.default-dispatcher-16 exited.[0m
-[0m[[0mdebug[0m] [0mWaiting for thread SkylineApp-akka.actor.default-dispatcher-19 to terminate.[0m
-[0m[[0mdebug[0m] [0m	Thread SkylineApp-akka.actor.default-dispatcher-19 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-6 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-6 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread SkylineApp-akka.actor.default-dispatcher-34 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread SkylineApp-akka.actor.default-dispatcher-34 exited.[0m
 [0m[[0mdebug[0m] [0mInterrupting remaining threads (should be all daemons).[0m
 [0m[[0mdebug[0m] [0mInterrupting thread SkylineApp-9[0m
 [0m[[0mdebug[0m] [0m	Interrupted SkylineApp-9[0m
