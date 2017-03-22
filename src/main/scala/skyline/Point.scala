@@ -4,8 +4,8 @@ class Point(d: Array[Int]) extends Ordered[Point]{
 	val data = d
 
 	def dominates(q: Point): Boolean = {
-		var i: Int = 0
-		var res: Boolean = true
+		var i = 0
+		var res = (data.length == q.data.length)
 		while(res && i < data.length && i < q.data.length) {
 			if(data(i) > q.data(i)) {
 				res = false
@@ -13,7 +13,6 @@ class Point(d: Array[Int]) extends Ordered[Point]{
 			i = i + 1
 		}
 
-		res = res && (data.length == q.data.length)
 		res
 	}
 
@@ -30,7 +29,8 @@ class Point(d: Array[Int]) extends Ordered[Point]{
    	def compare(that: Point): Int = {
    		var i = 0
    		var res = 0
-   		while(res == 0 && i < data.length && i < that.data.length) {
+   		val minLength = data.length.min(that.data.length)
+   		while(res == 0 && i < minLength) {
    			if(data(i) < that.data(i)){
    				res = -1
    			} else if (data(i) > that.data(i)){
