@@ -8,16 +8,18 @@ import akka.cluster.pubsub.DistributedPubSub
 import akka.cluster.pubsub.DistributedPubSubMediator.{Publish, Subscribe}
 
 object Streamer {
-  def props(topic: String, stream: Stream[Point]): Props = Props(classOf[Streamer], topic, stream)
+  def props(topic: String, stream: Stream[Point], nWorkers: Int): Props = Props(classOf[Streamer], topic, stream, nWorkers)
 
   case class SendNext(to: ActorRef)
   case class Filter(origin: String, p: Point)
   case class Done()
+  case class TerminationAck()
 }
 
-class Streamer(topic: String, stream: Stream[Point]) extends Actor {
+class Streamer(topic: String, stream: Stream[Point], nWorkers: Int) extends Actor {
   val mediator = DistributedPubSub(context.system).mediator
   val iterator = stream.iterator
+  var n = nWorkers
 
   mediator ! Subscribe(topic, self)
 
@@ -30,8 +32,12 @@ class Streamer(topic: String, stream: Stream[Point]) extends Actor {
       } else {
         to ! Streamer.Done()
         //println("stream empty. sending shutdown message to the workers")
-        context.system.terminate()
       }
+    }
+    case Streamer.TerminationAck() => {
+      n = n - 1
+      if(n == 0)
+        context.system.terminate()
     }
   }
 

@@ -39,13 +39,18 @@ class Worker(in: String, name: String) extends Actor {
     case Streamer.Filter(w, value) => {
       if(w != name){
         //println(name + "received point " + value + "to filter the localSkyline " + localSkyline.mkString(", "))
-        localSkyline = localSkyline.filter(!value.dominates(_))
+        //val t0 = System.currentTimeMillis
+        if(localSkyline.exists(value.dominates(_)))
+          localSkyline = localSkyline.filter(!value.dominates(_))
+        //val t1 = System.currentTimeMillis
+        //println("[" + name + "] Filtering the point: " + (t1 - t0) + "(ms)")
       }
     }
     case Streamer.Done() => {
       //Sending finalisation message to the writer
       //println(name + " forwarding the shutdown message to the writer")
       //println(localSkyline.mkString(", "))
+      mediator ! Publish(in, Streamer.TerminationAck())
       context.stop(self)
     }
   }
@@ -56,12 +61,22 @@ class Worker(in: String, name: String) extends Actor {
       localSkyline += i
       Some(i)
     } else {
+      //val t0 = System.currentTimeMillis
       var dominated = localSkyline.exists(_.dominates(i))
+      //val t1 = System.currentTimeMillis
+      //println("[" + name + "] Checking if dominated: " + (t1 - t0) + "(ms)")
       if(!dominated) {
         //println(name + " adding point2: [" + i + "]")
         //println(name + " before filtering. localSkyline: " + localSkyline.mkString(", "))
-        localSkyline = localSkyline.filter(!i.dominates(_))
+        //var t0 = System.currentTimeMillis
+        if(localSkyline.exists(i.dominates(_)))
+          localSkyline = localSkyline.filter(!i.dominates(_))
+        //var t1 = System.currentTimeMillis
+        //println("[" + name + "] Filtering the list: " + (t1 - t0) + "(ms)")
+        //t0 = System.currentTimeMillis
         localSkyline += i
+        //t1 = System.currentTimeMillis
+        //println("[" + name + "] Inserting the point: " + (t1 - t0) + "(ms)")
         //println(name + " after filtering. localSkyline: " + localSkyline.mkString(", "))
         Some(i)
       } else {
