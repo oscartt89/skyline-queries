@@ -25,11 +25,12 @@ object Main {
     val joinAddress = Cluster(system1).selfAddress
     Cluster(system1).join(joinAddress)
     system1.actorOf(Props[MemberListener], "memberListener")
+    system1.actorOf(Streamer.props("in", stream))
+    system1.actorOf(Writer.props("out", nWorkers))
+    
     for(i <- 1 to nWorkers){
         system1.actorOf(Worker.props("in", "out", "worker" + i))
     }
-    system1.actorOf(Streamer.props("in", stream))
-    system1.actorOf(Writer.props("out", nWorkers))
 
     //Thread.sleep(5000)
     /*val system2 = ActorSystem(systemName)

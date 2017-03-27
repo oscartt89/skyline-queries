@@ -41,15 +41,17 @@ class Writer(topic: String, nWorkers: Int) extends Actor {
       for((ww, local) <- globalSkyline) {
         var tmp = local
         if(w == ww){
-          //Here just add the point without checking, and then filters the points dominated
+          //Here just filter the points dominated and then add the point
           //by the included one
-          tmp = tmp.filter(!i.dominates(_))
+          if(tmp.exists(i.dominates(_)))
+            tmp = tmp.filter(!i.dominates(_))
           tmp += i
         } else {
     		  dominated = tmp.exists(_.dominates(i))
       		if(!dominated) {
 //    			println("writer adding point2: [" + i + "]. globalSkyline: " + globalSkyline.mkString(", "))
-      			tmp = tmp.filter(!i.dominates(_))
+      			if(tmp.exists(i.dominates(_)))
+              tmp = tmp.filter(!i.dominates(_))
 //     			println("writer added point: [" + i + "]. globalSkyline (after filtering): " + globalSkyline.mkString(", "))
       		} else {
 //    			print("writer point: [" + i + "] dominated by the globalSkyline: " + globalSkyline.mkString(", "))

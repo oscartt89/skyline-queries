@@ -48,7 +48,8 @@ class Worker(in: String, out: String, name: String) extends Actor {
       if(!dominated) {
         //println(name + " adding point2: [" + i + "]")
         //println(name + " before filtering. localSkyline: " + localSkyline.mkString(", "))
-        localSkyline = localSkyline.filter(!i.dominates(_))
+        if(localSkyline.exists(i.dominates(_)))
+          localSkyline = localSkyline.filter(!i.dominates(_))
         localSkyline += i
         //println(name + " after filtering. localSkyline: " + localSkyline.mkString(", "))
         Some(i)
