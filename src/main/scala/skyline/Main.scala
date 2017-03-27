@@ -2,36 +2,38 @@ package skyline
 
 import akka.actor.ActorSystem
 import akka.actor.Props
+import akka.http.scaladsl.Http
+import akka.http.scaladsl.model.{HttpResponse, HttpRequest}
+import akka.http.scaladsl.server.Directives._
+import akka.stream.{ActorMaterializer, Materializer}
+import akka.stream.scaladsl.{Flow, Sink, Source}
+import akka.stream.ActorMaterializer
 import akka.cluster.Cluster
+import akka.cluster.pubsub.DistributedPubSub
+import akka.cluster.pubsub.DistributedPubSubMediator.{Publish, Subscribe}
 import scala.concurrent.Await
 import scala.concurrent.duration._
 import scala.util.Random
 
 object Main {
   def main(args: Array[String]): Unit = {
-    if(args.length < 3){
-        println("ERROR. Use: run <STREAM SIZE> <N DIMENSIONS> <MAX RANDOM NUMBER> <N WORKERS>")
+    if(args.length < 1){
+        println("ERROR. Use: run <N WORKERS>")
         System.exit(-1)
     }
 
     val systemName = "SkylineApp"
-    val r1 = new Random(1)
-    //val t0 = System.currentTimeMillis
-    val stream = make(args(0).toInt, args(1).toInt, args(2).toInt, r1)
-    //val t1 = System.currentTimeMillis
-    //println("Building up the stream: " + (t1 - t0) / 1000.0 + "(s)")
-    val nWorkers = args(3).toInt
-
-    //val stream = Point(Array(3, 3)) #:: Point(Array(4, 2)) #:: Point(Array(1, 3)) #:: Point(Array(2, 2)) #:: Point(Array(4, 1)) #:: Stream.empty
+    val nWorkers = args(0).toInt
 
     val system1 = ActorSystem(systemName)
     val joinAddress = Cluster(system1).selfAddress
+    val mediator = DistributedPubSub(system1).mediator
     Cluster(system1).join(joinAddress)
     system1.actorOf(Props[MemberListener], "memberListener")
+    system1.actorOf(Streamer.props("in", nWorkers))
     for(i <- 1 to nWorkers){
         system1.actorOf(Worker.props("in", "worker" + i))
     }
-    system1.actorOf(Streamer.props("in", stream, nWorkers))
 
     //Thread.sleep(5000)
     /*val system2 = ActorSystem(systemName)
@@ -43,17 +45,29 @@ object Main {
     system3.actorOf(Props[Worker], "worker4")
     system3.actorOf(Props[Worker], "worker5")*/
 
-    Await.result(system1.whenTerminated, Duration.Inf)
-  }
+    implicit val actorSystem = system1
+    implicit val streamMaterializer = ActorMaterializer()
+    implicit val executionContext = actorSystem.dispatcher
+    val log = actorSystem.log
 
-  def make(i:Int, dimensions: Int, max: Int, r: Random) : Stream[Point] = {                  
-    if(i==0){
-        Stream.empty[Point] 
-    } else {
-        val d = Array.fill(dimensions)(r.nextInt(max))
-        val point = Point(d)
-        //println("Point(" + i + "): [" + point + "]")
-        Stream.cons(point, make(i-1, dimensions, max, r))    
-    }           
+    import PointJsonProtocol._
+
+    def route =
+        pathPrefix("skyline") {
+          path("add-point") {
+            (post & entity(as[Point2])) { point =>
+              mediator ! Publish("in", Streamer.AddPoint(Point(point.data)))
+              complete("Point included\n")
+            }
+        }
+    }
+
+    val allRoutes = route
+
+    val bindingFuture = Http().bindAndHandle(allRoutes, "localhost", 9000)
+    bindingFuture
+      .map(_.localAddress)
+      .map(addr => s"Bound to $addr")
+      .foreach(log.info)
   }
 }

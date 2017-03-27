@@ -10,7 +10,7 @@ import scala.collection.mutable.SortedSet
 object Worker {
   def props(in: String, name: String) = Props(new Worker(in, name))
   case class Next()
-  case class IdentifiedPoint(worker: String, value: Point)
+  case class Filter(name: String, p: Point)
 }
 
 class Worker(in: String, name: String) extends Actor {
@@ -24,34 +24,28 @@ class Worker(in: String, name: String) extends Actor {
   def receive = {
     case Worker.Next() => mediator ! Publish(in, Streamer.SendNext(self))
     case i: Point => {
+      println(name + "got point: " + i)
       val point = work(i)
       point match {
         case Some(value) => {
-          context.actorSelection("../**") ! Streamer.Filter(name, value)
-          //mediator ! SendToAll(path = "../**", msg = Streamer.Filter(name, value), allButSelf = false)
-          //mediator ! Publish(in, Streamer.Filter(name, value))
-          //self ! Streamer.Filter(name, value)
+          context.actorSelection("../**") ! Worker.Filter(name, value)
         }
         case None => {}
       }
       self ! Worker.Next()
     }
-    case Streamer.Filter(w, value) => {
+    case Worker.Filter(w, value) => {
       if(w != name){
         //println(name + "received point " + value + "to filter the localSkyline " + localSkyline.mkString(", "))
         //val t0 = System.currentTimeMillis
         if(localSkyline.exists(value.dominates(_)))
           localSkyline = localSkyline.filter(!value.dominates(_))
+        println(localSkyline.mkString(", "))
         //val t1 = System.currentTimeMillis
         //println("[" + name + "] Filtering the point: " + (t1 - t0) + "(ms)")
+      } else {
+        println(localSkyline.mkString(", "))
       }
-    }
-    case Streamer.Done() => {
-      //Sending finalisation message to the writer
-      //println(name + " forwarding the shutdown message to the writer")
-      //println(localSkyline.mkString(", "))
-      mediator ! Publish(in, Streamer.TerminationAck())
-      context.stop(self)
     }
   }
 

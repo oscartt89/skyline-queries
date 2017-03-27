@@ -1,5 +1,10 @@
 package skyline
 
+import spray.json._
+import akka.http.scaladsl.marshallers.sprayjson.SprayJsonSupport
+
+case class Point2(data: Array[Int])
+
 class Point(d: Array[Int]) extends Ordered[Point]{
 	val data = d
 
@@ -44,4 +49,8 @@ class Point(d: Array[Int]) extends Ordered[Point]{
 
 object Point {
 	def apply(d: Array[Int]) = new Point(d)
+}
+
+object PointJsonProtocol extends SprayJsonSupport with DefaultJsonProtocol {
+  implicit val pointFormat = jsonFormat1(Point2.apply)
 }
