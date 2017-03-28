@@ -4,7 +4,7 @@ output mode:
 0 -> single
 output directories:
 1 items
-output dir -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes
+output dir -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes
 compile options:
 0 items
 javac options:
@@ -19,61 +19,64 @@ name hashing:
 1 items
 0 -> true
 products:
-34 items
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Main$$anonfun$1.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Main$$anonfun$main$1.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Main$$anonfun$make$1.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Main$.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Main.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/MemberListener$$anonfun$receive$1$$anonfun$applyOrElse$1.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/MemberListener$$anonfun$receive$1.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/MemberListener.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Point$.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Point.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$$anonfun$receive$1.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$Done$.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$Done.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$Filter$.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$Filter.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$SendNext$.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$SendNext.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$TerminationAck$.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$TerminationAck.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$1.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$props$1.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$receive$1$$anonfun$applyOrElse$1.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$receive$1$$anonfun$applyOrElse$2.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$receive$1.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$work$1.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$work$2.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$IdentifiedPoint$.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$IdentifiedPoint.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$Next$.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$Next.class
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker.class
+37 items
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Main$$anonfun$1.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Main$$anonfun$main$1.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Main$$anonfun$make$1.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Main$.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Main.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/MemberListener$$anonfun$receive$1$$anonfun$applyOrElse$1.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/MemberListener$$anonfun$receive$1.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/MemberListener.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Point$.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Point.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$$anonfun$receive$1.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$Done$.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$Done.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$Filter$.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$Filter.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$SendNext$.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$SendNext.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$TerminationAck$.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$TerminationAck.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$props$1.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$receive$1$$anonfun$applyOrElse$1.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$receive$1$$anonfun$applyOrElse$2.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$receive$1.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$work$1.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$work$2.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$work$3$$anonfun$apply$1.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$work$3.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$work$4.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$work$5.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$IdentifiedPoint$.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$IdentifiedPoint.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$Next$.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$Next.class
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker.class
 binary dependencies:
 18 items
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /home/otorreno/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.0.jar
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /home/otorreno/.ivy2/cache/com.typesafe.akka/akka-cluster_2.11/jars/akka-cluster_2.11-2.4.0.jar
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /home/otorreno/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> /home/otorreno/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.0.jar
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> /home/otorreno/.ivy2/cache/com.typesafe.akka/akka-cluster_2.11/jars/akka-cluster_2.11-2.4.0.jar
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> /home/otorreno/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> /home/otorreno/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /home/otorreno/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.0.jar
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /home/otorreno/.ivy2/cache/com.typesafe.akka/akka-cluster-tools_2.11/jars/akka-cluster-tools_2.11-2.4.0.jar
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /home/otorreno/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /home/otorreno/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.0.jar
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /home/otorreno/.ivy2/cache/com.typesafe.akka/akka-cluster-tools_2.11/jars/akka-cluster-tools_2.11-2.4.0.jar
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /home/otorreno/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /Users/oscartorrenotirado/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.0.jar
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /Users/oscartorrenotirado/.ivy2/cache/com.typesafe.akka/akka-cluster_2.11/jars/akka-cluster_2.11-2.4.0.jar
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /Users/oscartorrenotirado/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> /Users/oscartorrenotirado/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.0.jar
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> /Users/oscartorrenotirado/.ivy2/cache/com.typesafe.akka/akka-cluster_2.11/jars/akka-cluster_2.11-2.4.0.jar
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> /Users/oscartorrenotirado/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> /Users/oscartorrenotirado/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /Users/oscartorrenotirado/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.0.jar
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /Users/oscartorrenotirado/.ivy2/cache/com.typesafe.akka/akka-cluster-tools_2.11/jars/akka-cluster-tools_2.11-2.4.0.jar
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /Users/oscartorrenotirado/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /Users/oscartorrenotirado/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.0.jar
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /Users/oscartorrenotirado/.ivy2/cache/com.typesafe.akka/akka-cluster-tools_2.11/jars/akka-cluster-tools_2.11-2.4.0.jar
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /Users/oscartorrenotirado/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -84,13 +87,13 @@ public inherited external dependencies:
 0 items
 member reference internal dependencies:
 7 items
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> /Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala
 member reference external dependencies:
 0 items
 inheritance internal dependencies:
@@ -98,438 +101,461 @@ inheritance internal dependencies:
 inheritance external dependencies:
 0 items
 class names:
-34 items
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> skyline.Main
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> skyline.Main$
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> skyline.Main$$anonfun$1
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> skyline.Main$$anonfun$main$1
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> skyline.Main$$anonfun$make$1
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> skyline.MemberListener
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> skyline.MemberListener$$anonfun$receive$1
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> skyline.MemberListener$$anonfun$receive$1$$anonfun$applyOrElse$1
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> skyline.Point
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> skyline.Point$
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> skyline.Streamer
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> skyline.Streamer$
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> skyline.Streamer$$anonfun$receive$1
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> skyline.Streamer$Done
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> skyline.Streamer$Done$
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> skyline.Streamer$Filter
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> skyline.Streamer$Filter$
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> skyline.Streamer$SendNext
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> skyline.Streamer$SendNext$
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> skyline.Streamer$TerminationAck
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> skyline.Streamer$TerminationAck$
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$$anonfun$1
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$$anonfun$props$1
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$$anonfun$receive$1
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$$anonfun$receive$1$$anonfun$applyOrElse$1
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$$anonfun$receive$1$$anonfun$applyOrElse$2
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$$anonfun$work$1
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$$anonfun$work$2
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$IdentifiedPoint
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$IdentifiedPoint$
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$Next
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$Next$
+37 items
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> skyline.Main
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> skyline.Main$
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> skyline.Main$$anonfun$1
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> skyline.Main$$anonfun$main$1
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> skyline.Main$$anonfun$make$1
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> skyline.MemberListener
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> skyline.MemberListener$$anonfun$receive$1
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> skyline.MemberListener$$anonfun$receive$1$$anonfun$applyOrElse$1
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> skyline.Point
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> skyline.Point$
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> skyline.Streamer
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> skyline.Streamer$
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> skyline.Streamer$$anonfun$receive$1
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> skyline.Streamer$Done
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> skyline.Streamer$Done$
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> skyline.Streamer$Filter
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> skyline.Streamer$Filter$
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> skyline.Streamer$SendNext
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> skyline.Streamer$SendNext$
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> skyline.Streamer$TerminationAck
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> skyline.Streamer$TerminationAck$
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$$anonfun$props$1
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$$anonfun$receive$1
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$$anonfun$receive$1$$anonfun$applyOrElse$1
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$$anonfun$receive$1$$anonfun$applyOrElse$2
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$$anonfun$work$1
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$$anonfun$work$2
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$$anonfun$work$3
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$$anonfun$work$3$$anonfun$apply$1
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$$anonfun$work$4
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$$anonfun$work$5
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$IdentifiedPoint
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$IdentifiedPoint$
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$Next
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline.Worker$Next$
 used names:
-310 items
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> +
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> -
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> <
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> <init>
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> ==
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> ActorSystem
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> AnyRef
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Array
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Await
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> ClassTag
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Cluster
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Duration
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Inf
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Int
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Main
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> MemberListener
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Point
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Predef
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Props
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Random
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Stream
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Streamer
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> String
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> System
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Unit
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Worker
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> actor
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> actorOf
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> akka
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> apply
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> args
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> augmentString
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> cluster
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> concurrent
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> cons
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> d
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> dimensions
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> duration
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> empty
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> exit
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> fill
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> foreach
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> i
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> intWrapper
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> java
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> join
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> joinAddress
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> lang
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> length
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> make
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> materializeClassTag
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> max
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> nWorkers
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> nextInt
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> package
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> point
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> println
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> props
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> r
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> r1
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> result
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> scala
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> selfAddress
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> skyline
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> stream
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> system1
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> systemName
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> to
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> toInt
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> util
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> whenTerminated
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> +
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> -
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> <init>
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> ==
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> A1
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> Actor
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> ActorLogging
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> Address
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> B1
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> Cluster
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> ClusterEvent
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> Function1
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> MemberListener
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> MemberStatus
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> Predef
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> Set
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> Unit
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> Up
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> actor
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> address
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> akka
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> apply
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> asInstanceOf
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> canBuildFrom
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> cluster
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> collect
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> context
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> empty
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> immutable
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> info
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> isInstanceOf
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> log
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> member
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> members
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> nodes
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> nodes_=
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> scala
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> self
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> size
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> skyline
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> status
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> subscribe
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> system
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> unchecked
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> unsubscribe
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> &&
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> +
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> <
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> <init>
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> ==
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> >
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> Any
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> AnyRef
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> Array
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> Boolean
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> Int
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> Ordered
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> Point
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> Predef
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> String
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> apply
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> asInstanceOf
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> d
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> data
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> deep
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> i
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> intArrayOps
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> intWrapper
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> isInstanceOf
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> length
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> min
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> minLength
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> mkString
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> package
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> q
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> res
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> scala
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> skyline
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> that
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> while$1
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> while$2
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> !
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> &&
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> -
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> <init>
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> ==
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> A1
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> AbstractFunction0
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> AbstractFunction1
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> AbstractFunction2
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Actor
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> ActorRef
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> AnyRef
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> B1
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> DistributedPubSub
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> DistributedPubSubMediator
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Done
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Filter
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Function1
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Int
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> None
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Point
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> PoisonPill
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Predef
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Product
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Props
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Publish
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> ScalaRunTime
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> SendNext
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Serializable
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Stream
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Streamer
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> String
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Subscribe
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> TerminationAck
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> _hashCode
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> _toString
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> actor
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> actorRef2Scala
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> akka
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> apply
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> asInstanceOf
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> cluster
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> context
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> eq
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> hasNext
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> isInstanceOf
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> iterator
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> mediator
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> n
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> nWorkers
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> n_=
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> next
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> origin
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> p
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> package
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> point
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> pubsub
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> runtime
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> scala
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> self
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> skyline
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> stream
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> system
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> terminate
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> to
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> toString
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> topic
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> typedProductIterator
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> unchecked
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> ||
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> !
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> !=
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> $conforms
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> &&
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> +=
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> <init>
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> ==
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> A1
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> AbstractFunction0
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> AbstractFunction2
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Actor
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> ActorRef
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> ActorSelection
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> AnyRef
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> B1
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> ClassTag
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> DistributedPubSub
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> DistributedPubSubMediator
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Function1
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> IdentifiedPoint
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Next
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> None
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Option
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Ordering
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Point
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Predef
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Product
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Props
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Publish
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Put
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> ScalaRunTime
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> SendToAll
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Serializable
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> SortedSet
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Streamer
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> String
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Worker
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> _hashCode
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> _toString
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> actor
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> actorRef2Scala
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> actorSelection
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> akka
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> apply
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> asInstanceOf
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> cluster
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> collection
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> context
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> dominated
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> dominates
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> empty
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> eq
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> exists
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> filter
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> i
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> in
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> isInstanceOf
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> localSkyline
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> localSkyline_=
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> materializeClassTag
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> math
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> mediator
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> mutable
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> name
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> ordered
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> origin
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> p
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> package
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> point
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> pubsub
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> runtime
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> scala
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> self
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> size
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> stop
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> system
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> toScala
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> toString
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> typedProductIterator
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> unary_!
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> unchecked
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> value
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> w
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> work
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> worker
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> x
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> ||
+327 items
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> +
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> -
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> <
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> <init>
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> ==
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> ActorSystem
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> AnyRef
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Array
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Await
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> ClassTag
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Cluster
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Duration
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Inf
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Int
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Main
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> MemberListener
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Point
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Predef
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Props
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Random
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Stream
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Streamer
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> String
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> System
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Unit
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> Worker
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> actor
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> actorOf
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> akka
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> apply
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> args
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> augmentString
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> cluster
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> concurrent
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> cons
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> d
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> dimensions
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> duration
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> empty
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> exit
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> fill
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> foreach
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> i
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> intWrapper
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> java
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> join
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> joinAddress
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> lang
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> length
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> make
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> materializeClassTag
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> max
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> nWorkers
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> nextInt
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> package
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> point
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> println
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> props
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> r
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> r1
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> result
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> scala
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> selfAddress
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> skyline
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> stream
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> system1
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> systemName
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> to
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> toInt
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> util
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> whenTerminated
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> +
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> -
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> <init>
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> ==
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> A1
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> Actor
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> ActorLogging
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> Address
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> B1
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> Cluster
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> ClusterEvent
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> Function1
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> MemberListener
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> MemberStatus
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> Predef
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> Set
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> Unit
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> Up
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> actor
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> address
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> akka
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> apply
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> asInstanceOf
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> canBuildFrom
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> cluster
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> collect
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> context
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> empty
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> immutable
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> info
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> isInstanceOf
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> log
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> member
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> members
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> nodes
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> nodes_=
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> scala
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> self
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> size
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> skyline
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> status
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> subscribe
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> system
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> unchecked
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> unsubscribe
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> &&
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> +
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> <
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> <init>
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> ==
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> >
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> Any
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> AnyRef
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> Array
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> Boolean
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> Int
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> Ordered
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> Point
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> Predef
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> String
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> apply
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> asInstanceOf
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> d
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> data
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> deep
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> i
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> intArrayOps
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> intWrapper
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> isInstanceOf
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> length
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> min
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> minLength
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> mkString
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> package
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> q
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> res
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> scala
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> skyline
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> that
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> while$1
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> while$2
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> !
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> &&
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> -
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> <init>
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> ==
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> A1
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> AbstractFunction0
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> AbstractFunction1
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> AbstractFunction3
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Actor
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> ActorRef
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> AnyRef
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> B1
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> DistributedPubSub
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> DistributedPubSubMediator
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Done
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Filter
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Function1
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Int
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> None
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Point
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> PoisonPill
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Predef
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Product
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Props
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Publish
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> ScalaRunTime
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> SendNext
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Serializable
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> SortedSet
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Stream
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Streamer
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> String
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> Subscribe
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> TerminationAck
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> _hashCode
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> _toString
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> actor
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> actorRef2Scala
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> akka
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> apply
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> asInstanceOf
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> cluster
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> collection
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> context
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> eq
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> hasNext
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> isInstanceOf
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> iterator
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> localSkyline
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> mediator
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> mutable
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> n
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> nWorkers
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> n_=
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> next
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> origin
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> p
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> package
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> point
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> pubsub
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> runtime
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> scala
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> self
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> skyline
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> stream
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> system
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> terminate
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> to
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> toString
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> topic
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> typedProductIterator
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> unchecked
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> ||
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> !
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> !=
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> $conforms
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> &&
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> +
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> +=
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> ->
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> <init>
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> ==
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> A1
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> AbstractFunction0
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> AbstractFunction3
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Actor
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> ActorRef
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> ActorSelection
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> AnyRef
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> B1
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> ClassTag
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> DistributedPubSub
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> DistributedPubSubMediator
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Function1
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> IdentifiedPoint
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Map
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Next
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> None
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Option
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Ordering
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Point
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Predef
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Product
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Props
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Publish
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Put
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> ScalaRunTime
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> SendToAll
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Serializable
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> SortedSet
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Streamer
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> String
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> Worker
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> _2
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> _hashCode
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> _toString
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> actor
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> actorRef2Scala
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> actorSelection
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> akka
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> apply
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> asInstanceOf
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> cluster
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> collection
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> context
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> dominated
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> dominates
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> empty
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> eq
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> exists
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> filter
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> foreach
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> i
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> in
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> isEmpty
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> isInstanceOf
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> localSkyline
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> localSkyline_=
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> materializeClassTag
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> math
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> mediator
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> mkString
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> mutable
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> name
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> ne
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> ordered
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> origin
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> otherLocal
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> p
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> package
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> point
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> println
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> pubsub
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> remote
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> remoteSkyline
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> remoteSkyline_=
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> runtime
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> scala
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> self
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> skyline
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> stop
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> system
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> toScala
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> toString
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> typedProductIterator
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> unary_!
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> unchecked
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> value
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> w
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> withFilter
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> work
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> worker
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> x
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> ||
 product stamps:
-34 items
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Main$$anonfun$1.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Main$$anonfun$main$1.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Main$$anonfun$make$1.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Main$.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Main.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/MemberListener$$anonfun$receive$1$$anonfun$applyOrElse$1.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/MemberListener$$anonfun$receive$1.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/MemberListener.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Point$.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Point.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$$anonfun$receive$1.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$Done$.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$Done.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$Filter$.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$Filter.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$SendNext$.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$SendNext.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$TerminationAck$.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$TerminationAck.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$1.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$props$1.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$receive$1$$anonfun$applyOrElse$1.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$receive$1$$anonfun$applyOrElse$2.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$receive$1.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$work$1.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$work$2.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$IdentifiedPoint$.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$IdentifiedPoint.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$Next$.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$Next.class -> lastModified(1490219436000)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker.class -> lastModified(1490219436000)
+37 items
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Main$$anonfun$1.class -> lastModified(1490723549000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Main$$anonfun$main$1.class -> lastModified(1490723549000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Main$$anonfun$make$1.class -> lastModified(1490723549000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Main$.class -> lastModified(1490723549000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Main.class -> lastModified(1490723549000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/MemberListener$$anonfun$receive$1$$anonfun$applyOrElse$1.class -> lastModified(1490714001000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/MemberListener$$anonfun$receive$1.class -> lastModified(1490714001000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/MemberListener.class -> lastModified(1490714001000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Point$.class -> lastModified(1490714001000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Point.class -> lastModified(1490714001000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$$anonfun$receive$1.class -> lastModified(1490714001000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$.class -> lastModified(1490714001000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$Done$.class -> lastModified(1490714001000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$Done.class -> lastModified(1490714001000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$Filter$.class -> lastModified(1490714001000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$Filter.class -> lastModified(1490714001000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$SendNext$.class -> lastModified(1490714002000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$SendNext.class -> lastModified(1490714002000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$TerminationAck$.class -> lastModified(1490714002000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer$TerminationAck.class -> lastModified(1490714002000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Streamer.class -> lastModified(1490714001000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$props$1.class -> lastModified(1490726684000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$receive$1$$anonfun$applyOrElse$1.class -> lastModified(1490726684000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$receive$1$$anonfun$applyOrElse$2.class -> lastModified(1490726684000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$receive$1.class -> lastModified(1490726684000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$work$1.class -> lastModified(1490726684000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$work$2.class -> lastModified(1490726684000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$work$3$$anonfun$apply$1.class -> lastModified(1490726684000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$work$3.class -> lastModified(1490726684000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$work$4.class -> lastModified(1490726684000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$$anonfun$work$5.class -> lastModified(1490726684000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$.class -> lastModified(1490726684000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$IdentifiedPoint$.class -> lastModified(1490726684000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$IdentifiedPoint.class -> lastModified(1490726684000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$Next$.class -> lastModified(1490726684000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker$Next.class -> lastModified(1490726684000)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/target/scala-2.11/classes/skyline/Worker.class -> lastModified(1490726684000)
 source stamps:
 5 items
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> hash(47bc88334603663bc11710103c8f43949380c1a4)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> hash(f59e012f3b87a3936d10467ac096127399b9fd17)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> hash(b98d2ebb18bdfb771aa4d3a882a3783d36cfaa61)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> hash(2e674afb1cd2d175d5f690063cda263a4ce8c791)
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> hash(319099a4ed63e2133c8a35f3eba54c8886ca79db)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> hash(ace1891a8257fae2fd442d6597c0a73a7355a739)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> hash(f59e012f3b87a3936d10467ac096127399b9fd17)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> hash(b98d2ebb18bdfb771aa4d3a882a3783d36cfaa61)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> hash(e54aad6cc931ae7adb3853d3616686f7dd88ecad)
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> hash(7c5ab8de6c0d705d229a597eafe789b6ec532692)
 binary stamps:
 5 items
-/home/otorreno/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.0.jar -> lastModified(1443601439000)
-/home/otorreno/.ivy2/cache/com.typesafe.akka/akka-cluster-tools_2.11/jars/akka-cluster-tools_2.11-2.4.0.jar -> lastModified(1443601607000)
-/home/otorreno/.ivy2/cache/com.typesafe.akka/akka-cluster_2.11/jars/akka-cluster_2.11-2.4.0.jar -> lastModified(1443601575000)
-/home/otorreno/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> lastModified(1435004218000)
-/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> lastModified(1489045076000)
+/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1481605174000)
+/Users/oscartorrenotirado/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.0.jar -> lastModified(1443601439000)
+/Users/oscartorrenotirado/.ivy2/cache/com.typesafe.akka/akka-cluster-tools_2.11/jars/akka-cluster-tools_2.11-2.4.0.jar -> lastModified(1443601607000)
+/Users/oscartorrenotirado/.ivy2/cache/com.typesafe.akka/akka-cluster_2.11/jars/akka-cluster_2.11-2.4.0.jar -> lastModified(1443601575000)
+/Users/oscartorrenotirado/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> lastModified(1435004218000)
 class names:
 5 items
-/home/otorreno/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.0.jar -> akka.actor.Actor
-/home/otorreno/.ivy2/cache/com.typesafe.akka/akka-cluster-tools_2.11/jars/akka-cluster-tools_2.11-2.4.0.jar -> akka.cluster.pubsub.DistributedPubSub
-/home/otorreno/.ivy2/cache/com.typesafe.akka/akka-cluster_2.11/jars/akka-cluster_2.11-2.4.0.jar -> akka.cluster.MemberStatus
-/home/otorreno/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> scala.runtime.AbstractFunction2
-/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> java.lang.Object
+/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/oscartorrenotirado/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.4.0.jar -> akka.actor.Actor
+/Users/oscartorrenotirado/.ivy2/cache/com.typesafe.akka/akka-cluster-tools_2.11/jars/akka-cluster-tools_2.11-2.4.0.jar -> akka.cluster.pubsub.DistributedPubSubMediator$
+/Users/oscartorrenotirado/.ivy2/cache/com.typesafe.akka/akka-cluster_2.11/jars/akka-cluster_2.11-2.4.0.jar -> akka.cluster.Cluster$
+/Users/oscartorrenotirado/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> scala.Product
 internal apis:
 5 items
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDc/7p9AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cKXEy/10AAZub3RpZnlzcQB+AAxyMTCTdAAEd2FpdHNxAH4ADATQY0V0AA0kYXNJbnN0YW5jZU9mc3EAfgAM4mb5qnQABmVxdWFsc3NxAH4ADJF6g9x0AAxhc0luc3RhbmNlT2ZzcQB+AAzMOok9dAAMc3luY2hyb25pemVkc3EAfgAMeINb3nQADSRpc0luc3RhbmNlT2ZzcQB+AAzk5qYcdAAEbWFpbnNxAH4ADMIq0XF0AAlub3RpZnlBbGxzcQB+AAwZIhZgdAAMaXNJbnN0YW5jZU9mc3EAfgAMAsvTZ3QAAj09c3EAfgAMy5p8HHQABWNsb25lc3EAfgAMedjC1nQABG1ha2VzcQB+AAy7QXmMdAAETWFpbnNxAH4ADAb1B490AAh0b1N0cmluZ3NxAH4ADNqx0aJ0AAIhPXNxAH4ADDqt26B0AAhnZXRDbGFzc3NxAH4ADIC2VJJ0AAJuZXNxAH4ADH6njP10AAJlcXNxAH4ADFeDM1t0AAIjI3NxAH4ADAyUoDx0AAhmaW5hbGl6ZXNxAH4ADB+CjSx0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0AAxza3lsaW5lLk1haW51cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AFsBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AENMAAlpbmhlcml0ZWRxAH4AQ0wAB3BhcmVudHNxAH4AQ3hxAH4AYnNxAH4AWwF1cQB+AD4AAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AERxAH4ATXVxAH4ATgAAAABzcQB+AFAAcQB+AB11cQB+AFMAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AYXQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AH11cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBqeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBWdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBxWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBhc3EAfgBwdAAFQXJyYXlxAH4AdnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBwdAAGU3RyaW5nc3EAfgB0c3EAfgB3dXEAfgB6AAAAA3NxAH4AfHQABGphdmFzcQB+AHx0AARsYW5ncQB+AIFwc3EAfgBbAXVxAH4APgAAAABwc3EAfgBbAXVxAH4AlQAAAAJzcQB+AHB0AAZPYmplY3RxAH4AmXNxAH4AcHQAA0FueXEAfgB2cHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAdza3lsaW5lc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFa9//6SnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AE0vaG9tZS9vdG9ycmVuby9Ecm9wYm94L3ZhbG8vc2FtcGxlcy9za3lsaW5lLXF1ZXJpZXMvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFEe8iDNGA2Y7wRcQEDyPQ5STgMGk
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCWGW58AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwxayV0nQABHNlbGZzcQB+AAtyRxYMdAAHY29udGV4dHVxAH4ACQAAACZzcQB+AAt3rJWOdAAGbm90aWZ5c3EAfgALQ3v9/nQAB1JlY2VpdmVzcQB+AAvHSEoQdAAEd2FpdHNxAH4AC/UuHcJ0AA0kYXNJbnN0YW5jZU9mc3EAfgAL+Run53QABmVxdWFsc3NxAH4ACxvxjYN0AAxhc0luc3RhbmNlT2ZzcQB+AAv9hm9VdAAMc3luY2hyb25pemVkc3EAfgALMAe7QXQADSRpc0luc3RhbmNlT2ZzcQB+AAsxipeldAAHcmVjZWl2ZXNxAH4AC+0aO9l0AApwcmVSZXN0YXJ0c3EAfgALJrbjrXQADWFyb3VuZFJlY2VpdmVzcQB+AAtLN7oadAALcG9zdFJlc3RhcnRzcQB+AAtQzvY4dAAIcG9zdFN0b3BzcQB+AAuQjOuhdAAJbm90aWZ5QWxsc3EAfgALBXTEW3QAEWFyb3VuZFBvc3RSZXN0YXJ0c3EAfgALhSn3gXQADGlzSW5zdGFuY2VPZnNxAH4ACxMEjmt0ABBhcm91bmRQcmVSZXN0YXJ0c3EAfgALNA5I+nQADmFyb3VuZFBvc3RTdG9wc3EAfgALMKcr4XQAB2NsdXN0ZXJzcQB+AAvrD26KdAAGPGluaXQ+c3EAfgALk5nUiHQACHByZVN0YXJ0c3EAfgALYmojX3QACXVuaGFuZGxlZHNxAH4AC/HvO7R0AAVub2Rlc3NxAH4AC2liI5N0AAI9PXNxAH4ACxlSwc90AAVjbG9uZXNxAH4ACy3zQFt0AA5NZW1iZXJMaXN0ZW5lcnNxAH4AC2Q3WjJ0AAZzZW5kZXJzcQB+AAtkc7tidAAIdG9TdHJpbmdzcQB+AAtLzAc/dAACIT1zcQB+AAsrost9dAAIZ2V0Q2xhc3NzcQB+AAt9L7NxdAACbmVzcQB+AAvJZ6UhdAASc3VwZXJ2aXNvclN0cmF0ZWd5c3EAfgALAZq5anQAAmVxc3EAfgALKCXndnQAA2xvZ3NxAH4AC8BXrLF0AAIjI3NxAH4AC+O6Xr10AAhmaW5hbGl6ZXNxAH4ACynsssZ0AAhoYXNoQ29kZXNxAH4AC6a9nu90AA5hcm91bmRQcmVTdGFydHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AGd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABZza3lsaW5lLk1lbWJlckxpc3RlbmVydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AH8Bc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AGdMAAlpbmhlcml0ZWRxAH4AZ0wAB3BhcmVudHNxAH4AZ3hxAH4AhnNxAH4AfwF1cQB+AGIAAAAAcHNxAH4AfwF1cQB+AGIAAAAAcHNxAH4AfwF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AIV0AAxBY3RvckxvZ2dpbmdzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AIVzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGFra2FzcQB+AJ50AAVhY3RvcnNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCfc3EAfgCSdAAFQWN0b3JxAH4AmHNxAH4AknQABk9iamVjdHNxAH4AlnNxAH4AmXVxAH4AnAAAAANzcQB+AJ50AARqYXZhc3EAfgCedAAEbGFuZ3EAfgClc3EAfgCSdAADQW55c3EAfgCWc3EAfgCZdXEAfgCcAAAAAnNxAH4AnnQABXNjYWxhcQB+AKVwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQAB3NreWxpbmVzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVr3//pKdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAMTAAPc291cmNlRGlyZWN0b3J5cQB+AAx4cHQATS9ob21lL290b3JyZW5vL0Ryb3Bib3gvdmFsby9zYW1wbGVzL3NreWxpbmUtcXVlcmllcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU9Z4BLzuHo5NtEEZ6wJYSc5m5/Rc=
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCJg6ZCAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cATvo4V0AAZub3RpZnlzcQB+AAwstOMedAAEd2FpdHNxAH4ADOcEI2l0AAI8PXNxAH4ADLnIk3x0AA0kYXNJbnN0YW5jZU9mc3EAfgAMXkv8qnQABmVxdWFsc3NxAH4ADJ9Eu7Z0AAxhc0luc3RhbmNlT2ZzcQB+AAzYGtPmdAABPHNxAH4ADM9ZMoN0AAVQb2ludHNxAH4ADOHAox50AARkYXRhc3EAfgAMGtqwEHQADHN5bmNocm9uaXplZHNxAH4ADG4PrsJ0AA0kaXNJbnN0YW5jZU9mc3EAfgAMjmrRLXQAAj49c3EAfgAM9qoDxXQACW5vdGlmeUFsbHNxAH4ADEIhgHl0AAljb21wYXJlVG9zcQB+AAwykvtXdAAMaXNJbnN0YW5jZU9mc3EAfgAMZ1NaGnQABjxpbml0PnNxAH4ADMtKkzl0AAVhcHBseXNxAH4ADI33OLR0AAI9PXNxAH4ADEaI88t0AAlkb21pbmF0ZXNzcQB+AAzIx0+zdAAFY2xvbmVzcQB+AAxT+n4udAAIdG9TdHJpbmdzcQB+AAxWWtxEdAACIT1zcQB+AAzDo2o5dAAIZ2V0Q2xhc3NzcQB+AAwzhdj7dAACbmVzcQB+AAxkk3yYdAACZXFzcQB+AAz3E1trdAAHY29tcGFyZXNxAH4ADJXA9IR0AAE+c3EAfgAMvim8kXQAAiMjc3EAfgAMbWnJrnQACGZpbmFsaXplc3EAfgAMZP2lA3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AU3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQADXNreWxpbmUuUG9pbnR1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AawFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AU0wACWluaGVyaXRlZHEAfgBTTAAHcGFyZW50c3EAfgBTeHEAfgByc3EAfgBrAXVxAH4ATgAAAABwc3EAfgBrAXVxAH4ATgAAAABwc3EAfgBrAXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAEc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTtbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AHFzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXhxAH4Af3hxAH4AcXQAB09yZGVyZWRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3EAfgCNdAAEbWF0aHNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCOdXEAfgB8AAAAAXNxAH4AgnQABVBvaW50c3EAfgCFc3EAfgCIdXEAfgCLAAAAAnNxAH4AjXQAB3NreWxpbmVxAH4AlHNxAH4AfnNxAH4AgnQACkNvbXBhcmFibGVzcQB+AIVzcQB+AIh1cQB+AIsAAAADc3EAfgCNdAAEamF2YXNxAH4AjXQABGxhbmdxAH4AlHVxAH4AfAAAAAFxAH4AlnNxAH4AgnQABk9iamVjdHEAfgCgc3EAfgCCdAADQW55c3EAfgCFc3EAfgCIdXEAfgCLAAAAAnNxAH4AjXEAfgCQcQB+AJRwcHNxAH4AUHEAfgBddXEAfgBeAAAAAHNxAH4AYAB0AA1za3lsaW5lLlBvaW50dXEAfgBjAAAAAH5xAH4AZXQABk1vZHVsZXVxAH4AaQAAAABzcQB+AGsBcQB+AHNwc3EAfgBrAXNxAH4AdXNxAH4AawF1cQB+AE4AAAAAcHNxAH4AawF1cQB+AE4AAAAAcHNxAH4AawF1cQB+AHwAAAACc3EAfgCCcQB+AKlzcQB+AIVzcQB+AIh1cQB+AIsAAAADc3EAfgCNcQB+AKRzcQB+AI1xAH4ApnEAfgCUc3EAfgCCcQB+AKtzcQB+AIVzcQB+AIh1cQB+AIsAAAACc3EAfgCNcQB+AJBxAH4AlHBwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAHc2t5bGluZXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvf/+kp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABNL2hvbWUvb3RvcnJlbm8vRHJvcGJveC92YWxvL3NhbXBsZXMvc2t5bGluZS1xdWVyaWVzL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABS5jS67GL37dxqk06iCo3g9Ns+qYQ==
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAK94aiAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwjHstw3QABHNlbGZzcQB+AAvhRwQ9dAAHY29udGV4dHVxAH4ACQAAAD1zcQB+AAu4+Q8kdAAGbm90aWZ5c3EAfgALhYAU13QAB3VuYXBwbHlzcQB+AAtlhYEJdAAHY3VycmllZHNxAH4ACyMuHth0AAdSZWNlaXZlc3EAfgALpaU1wXQABHdhaXRzcQB+AAtk2S3NdAAOY29weSRkZWZhdWx0JDJzcQB+AAtsA4rcdAANJGFzSW5zdGFuY2VPZnNxAH4AC54HLo90AAFuc3EAfgALsknT73QAB2NvbXBvc2VzcQB+AAu6Ad5pdAAMcHJvZHVjdEFyaXR5c3EAfgALmIMiJHQABmVxdWFsc3NxAH4AC0GME0N0AAhTdHJlYW1lcnNxAH4AC3mrFYd0AAxhc0luc3RhbmNlT2ZzcQB+AAtjkcE/dAAMc3luY2hyb25pemVkc3EAfgALkNv3/XQADSRpc0luc3RhbmNlT2ZzcQB+AAsJsp/mdAAHYW5kVGhlbnNxAH4AC07GA9x0AAdyZWNlaXZlc3EAfgALplFN2XQADlRlcm1pbmF0aW9uQWNrc3EAfgALZ8OilnQACnByZVJlc3RhcnRzcQB+AAub+dCvdAAGdHVwbGVkc3EAfgALiuoYiXQADWFyb3VuZFJlY2VpdmVzcQB+AAv4skaRdAAIY2FuRXF1YWxzcQB+AAvDX+HCdAAIbWVkaWF0b3JzcQB+AAsDr5qkdAALcG9zdFJlc3RhcnRzcQB+AAtHnXAFdAAIcG9zdFN0b3BzcQB+AAtUoRGndAANcHJvZHVjdFByZWZpeHNxAH4ACx5yoF50AAhpdGVyYXRvcnNxAH4ACyNL7Op0AAlub3RpZnlBbGxzcQB+AAtpV3z8dAALcmVhZFJlc29sdmVzcQB+AAt1qVCWdAAIU2VuZE5leHRzcQB+AAsNtNhLdAACdG9zcQB+AAu/iKtDdAARYXJvdW5kUG9zdFJlc3RhcnRzcQB+AAvFIgNFdAAERG9uZXNxAH4AC9oari90AAxpc0luc3RhbmNlT2ZzcQB+AAvXRNdSdAAQYXJvdW5kUHJlUmVzdGFydHNxAH4AC6gcyi10AA5hcm91bmRQb3N0U3RvcHNxAH4AC2s8CXN0AAY8aW5pdD5zcQB+AAsVpHi8dAAIcHJlU3RhcnRzcQB+AAsRjG5MdAAJdW5oYW5kbGVkc3EAfgALp/7TBnQABWFwcGx5c3EAfgALnk0343QAAj09c3EAfgALS+tmznQABm9yaWdpbnNxAH4ACxlawd10AAVjbG9uZXNxAH4ACzIbcc50AAFwc3EAfgALeExyAHQABGNvcHlzcQB+AAs7ji/OdAAGc2VuZGVyc3EAfgALozmZnXQACHRvU3RyaW5nc3EAfgALyNUcKHQAAiE9c3EAfgALWxbB6XQACGdldENsYXNzc3EAfgALKwGXT3QADmNvcHkkZGVmYXVsdCQxc3EAfgALmFsDN3QABXByb3Bzc3EAfgALSmSBM3QABkZpbHRlcnNxAH4AC8CZorJ0AAJuZXNxAH4ACw02Vnt0ABJzdXBlcnZpc29yU3RyYXRlZ3lzcQB+AAuRnuYkdAACZXFzcQB+AAuc73o2dAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgALQzorqXQAAiMjc3EAfgALo5PUinQACGZpbmFsaXplc3EAfgAL4ny7pnQADnByb2R1Y3RFbGVtZW50c3EAfgALVsQLj3QACGhhc2hDb2Rlc3EAfgALNcXUVnQADmFyb3VuZFByZVN0YXJ0c3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AlXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAEHNreWxpbmUuU3RyZWFtZXJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgCueHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCtAHBzcQB+ALJzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AlUwACWluaGVyaXRlZHEAfgCVTAAHcGFyZW50c3EAfgCVeHEAfgC2c3EAfgCtAHBzcQB+ALJ1cQB+AJAAAAAAc3EAfgCtAHBzcQB+ALJ1cQB+AJAAAAAAc3EAfgCtAHBzcQB+ALJ1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+ALV0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+ALVzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+ANJ0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+ANNzcQB+AMZ0AANBbnlzcQB+AMpzcQB+AM11cQB+ANAAAAACc3EAfgDSdAAFc2NhbGFxAH4A2XNxAH4AknEAfgCfdXEAfgCgAAAAAHNxAH4AogB0ABBza3lsaW5lLlN0cmVhbWVydXEAfgClAAAAAH5xAH4Ap3QACENsYXNzRGVmdXEAfgCrAAAAAHNxAH4ArQBwc3EAfgCycQB+ALdzcQB+AK0AcHNxAH4AsnNxAH4AunNxAH4ArQBwc3EAfgCydXEAfgCQAAAAAHNxAH4ArQBwc3EAfgCydXEAfgCQAAAAAHNxAH4ArQBwc3EAfgCydXEAfgDEAAAAA3NxAH4AxnQABUFjdG9yc3EAfgDKc3EAfgDNdXEAfgDQAAAAA3NxAH4A0nQABGFra2FzcQB+ANJ0AAVhY3RvcnEAfgDZc3EAfgDGcQB+AMlzcQB+AMpzcQB+AM11cQB+ANAAAAADc3EAfgDScQB+ANVzcQB+ANJxAH4A13EAfgDZc3EAfgDGcQB+ANtzcQB+AMpzcQB+AM11cQB+ANAAAAACc3EAfgDScQB+AOBxAH4A2XVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQAB3NreWxpbmVzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVr3//pKdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAMTAAPc291cmNlRGlyZWN0b3J5cQB+AAx4cHQATS9ob21lL290b3JyZW5vL0Ryb3Bib3gvdmFsby9zYW1wbGVzL3NreWxpbmUtcXVlcmllcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAULmdK+xzS0XXV9pAGPNomOkzox5E=
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHD6q5yXAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwzBi7sHQABHNlbGZzcQB+AAshquqYdAAHY29udGV4dHVxAH4ACQAAADhzcQB+AAumdIcudAAGbm90aWZ5c3EAfgALkBsd5HQAB3VuYXBwbHlzcQB+AAsWT7vsdAAMbG9jYWxTa3lsaW5lc3EAfgALS3s+QnQAB2N1cnJpZWRzcQB+AAtBEhh1dAAHUmVjZWl2ZXNxAH4ACzfGTsJ0AAR3YWl0c3EAfgAL1MqV9HQADmNvcHkkZGVmYXVsdCQyc3EAfgALjC0Ak3QADSRhc0luc3RhbmNlT2ZzcQB+AAs/FACpdAAMcHJvZHVjdEFyaXR5c3EAfgALDwYYVHQABmVxdWFsc3NxAH4AC0Cr3z10AAxhc0luc3RhbmNlT2ZzcQB+AAuRdGicdAAMc3luY2hyb25pemVkc3EAfgAL9glGUHQADSRpc0luc3RhbmNlT2ZzcQB+AAvLzmmpdAAHcmVjZWl2ZXNxAH4AC39crcF0AApwcmVSZXN0YXJ0c3EAfgALdf5BsnQABnR1cGxlZHNxAH4ACyGLOLR0AA1hcm91bmRSZWNlaXZlc3EAfgALiThOC3QACGNhbkVxdWFsc3EAfgALUBb3gXQACG1lZGlhdG9yc3EAfgALsWMWCnQAC3Bvc3RSZXN0YXJ0c3EAfgALP+PqsnQACHBvc3RTdG9wc3EAfgAL9dguH3QADXByb2R1Y3RQcmVmaXhzcQB+AAtsN3podAAEd29ya3NxAH4ACyL1x4t0AAlub3RpZnlBbGxzcQB+AAtu1TKhdAALcmVhZFJlc29sdmVzcQB+AAs+8qZfdAARYXJvdW5kUG9zdFJlc3RhcnRzcQB+AAvCY4tXdAAMaXNJbnN0YW5jZU9mc3EAfgAL4PjjHHQAEGFyb3VuZFByZVJlc3RhcnRzcQB+AAsPlTxzdAAOYXJvdW5kUG9zdFN0b3BzcQB+AAuynZDudAAGPGluaXQ+c3EAfgALVCtTd3QACHByZVN0YXJ0c3EAfgALBFiZKXQACXVuaGFuZGxlZHNxAH4AC/ndkEt0AAVhcHBseXNxAH4ACwaGuSp0AAI9PXNxAH4AC70fnL90AAVjbG9uZXNxAH4AC3DDieZ0AARjb3B5c3EAfgALMPv3J3QABnNlbmRlcnNxAH4AC6GCq8F0AAh0b1N0cmluZ3NxAH4AC/+qCAt0AAIhPXNxAH4ACwvfLMd0AAhnZXRDbGFzc3NxAH4AC4Kk+190AAZXb3JrZXJzcQB+AAu+REf8dAAOY29weSRkZWZhdWx0JDFzcQB+AAsZUXwfdAAFcHJvcHNzcQB+AAvbGTKOdAAPSWRlbnRpZmllZFBvaW50c3EAfgALZvgejXQAAm5lc3EAfgALmN3gnnQABXZhbHVlc3EAfgALQbinpHQAEnN1cGVydmlzb3JTdHJhdGVneXNxAH4AC6waJ6x0AAJlcXNxAH4AC+7Jlp90AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAtSd/M0dAACIyNzcQB+AAuUka4rdAAIZmluYWxpemVzcQB+AAulyeREdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAu0AQoRdAAIaGFzaENvZGVzcQB+AAtsdc3jdAAOYXJvdW5kUHJlU3RhcnRzcQB+AAuh4RQKdAAGd29ya2Vyc3EAfgALbn3Qz3QABE5leHRzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAACc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgCLeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAOc2t5bGluZS5Xb3JrZXJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AKMBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AItMAAlpbmhlcml0ZWRxAH4Ai0wAB3BhcmVudHNxAH4Ai3hxAH4AqnNxAH4AowF1cQB+AIYAAAAAcHNxAH4AowF1cQB+AIYAAAAAcHNxAH4AowF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AKl0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AKlzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AMJ0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AMNzcQB+ALZ0AANBbnlzcQB+ALpzcQB+AL11cQB+AMAAAAACc3EAfgDCdAAFc2NhbGFxAH4AyXBwc3EAfgCIcQB+AJV1cQB+AJYAAAAAc3EAfgCYAHQADnNreWxpbmUuV29ya2VydXEAfgCbAAAAAH5xAH4AnXQACENsYXNzRGVmdXEAfgChAAAAAHNxAH4AowFxAH4Aq3BzcQB+AKMBc3EAfgCtc3EAfgCjAXVxAH4AhgAAAABwc3EAfgCjAXVxAH4AhgAAAABwc3EAfgCjAXVxAH4AtAAAAANzcQB+ALZ0AAVBY3RvcnNxAH4AunNxAH4AvXVxAH4AwAAAAANzcQB+AMJ0AARha2thc3EAfgDCdAAFYWN0b3JxAH4AyXNxAH4AtnEAfgC5c3EAfgC6c3EAfgC9dXEAfgDAAAAAA3NxAH4AwnEAfgDFc3EAfgDCcQB+AMdxAH4AyXNxAH4AtnEAfgDLc3EAfgC6c3EAfgC9dXEAfgDAAAAAAnNxAH4AwnEAfgDQcQB+AMlwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AAx4cHQAB3NreWxpbmVzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVr3//pKdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAMTAAPc291cmNlRGlyZWN0b3J5cQB+AAx4cHQATS9ob21lL290b3JyZW5vL0Ryb3Bib3gvdmFsby9zYW1wbGVzL3NreWxpbmUtcXVlcmllcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUMZCZpO1j4hM8ijXz66VMiIbKeds=
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDc/7p9AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cKXEy/10AAZub3RpZnlzcQB+AAxyMTCTdAAEd2FpdHNxAH4ADATQY0V0AA0kYXNJbnN0YW5jZU9mc3EAfgAM4mb5qnQABmVxdWFsc3NxAH4ADJF6g9x0AAxhc0luc3RhbmNlT2ZzcQB+AAzMOok9dAAMc3luY2hyb25pemVkc3EAfgAMeINb3nQADSRpc0luc3RhbmNlT2ZzcQB+AAzk5qYcdAAEbWFpbnNxAH4ADMIq0XF0AAlub3RpZnlBbGxzcQB+AAwZIhZgdAAMaXNJbnN0YW5jZU9mc3EAfgAMAsvTZ3QAAj09c3EAfgAMy5p8HHQABWNsb25lc3EAfgAMedjC1nQABG1ha2VzcQB+AAy7QXmMdAAETWFpbnNxAH4ADAb1B490AAh0b1N0cmluZ3NxAH4ADNqx0aJ0AAIhPXNxAH4ADDqt26B0AAhnZXRDbGFzc3NxAH4ADIC2VJJ0AAJuZXNxAH4ADH6njP10AAJlcXNxAH4ADFeDM1t0AAIjI3NxAH4ADAyUoDx0AAhmaW5hbGl6ZXNxAH4ADB+CjSx0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0AAxza3lsaW5lLk1haW51cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AFsBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AENMAAlpbmhlcml0ZWRxAH4AQ0wAB3BhcmVudHNxAH4AQ3hxAH4AYnNxAH4AWwF1cQB+AD4AAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AERxAH4ATXVxAH4ATgAAAABzcQB+AFAAcQB+AB11cQB+AFMAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AYXQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AH11cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBqeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBWdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBxWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBhc3EAfgBwdAAFQXJyYXlxAH4AdnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBwdAAGU3RyaW5nc3EAfgB0c3EAfgB3dXEAfgB6AAAAA3NxAH4AfHQABGphdmFzcQB+AHx0AARsYW5ncQB+AIFwc3EAfgBbAXVxAH4APgAAAABwc3EAfgBbAXVxAH4AlQAAAAJzcQB+AHB0AAZPYmplY3RxAH4AmXNxAH4AcHQAA0FueXEAfgB2cHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAdza3lsaW5lc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFbFgwe03VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AFQvVm9sdW1lcy9NYWNpbnRvc2ggSEQvRHJvcGJveC92YWxvL3NhbXBsZXMvc2t5bGluZS1xdWVyaWVzL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSs4Ykaglf64v1ELWWXwKc6c1WnOQ==
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCWGW58AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwxayV0nQABHNlbGZzcQB+AAtyRxYMdAAHY29udGV4dHVxAH4ACQAAACZzcQB+AAt3rJWOdAAGbm90aWZ5c3EAfgALQ3v9/nQAB1JlY2VpdmVzcQB+AAvHSEoQdAAEd2FpdHNxAH4AC/UuHcJ0AA0kYXNJbnN0YW5jZU9mc3EAfgAL+Run53QABmVxdWFsc3NxAH4ACxvxjYN0AAxhc0luc3RhbmNlT2ZzcQB+AAv9hm9VdAAMc3luY2hyb25pemVkc3EAfgALMAe7QXQADSRpc0luc3RhbmNlT2ZzcQB+AAsxipeldAAHcmVjZWl2ZXNxAH4AC+0aO9l0AApwcmVSZXN0YXJ0c3EAfgALJrbjrXQADWFyb3VuZFJlY2VpdmVzcQB+AAtLN7oadAALcG9zdFJlc3RhcnRzcQB+AAtQzvY4dAAIcG9zdFN0b3BzcQB+AAuQjOuhdAAJbm90aWZ5QWxsc3EAfgALBXTEW3QAEWFyb3VuZFBvc3RSZXN0YXJ0c3EAfgALhSn3gXQADGlzSW5zdGFuY2VPZnNxAH4ACxMEjmt0ABBhcm91bmRQcmVSZXN0YXJ0c3EAfgALNA5I+nQADmFyb3VuZFBvc3RTdG9wc3EAfgALMKcr4XQAB2NsdXN0ZXJzcQB+AAvrD26KdAAGPGluaXQ+c3EAfgALk5nUiHQACHByZVN0YXJ0c3EAfgALYmojX3QACXVuaGFuZGxlZHNxAH4AC/HvO7R0AAVub2Rlc3NxAH4AC2liI5N0AAI9PXNxAH4ACxlSwc90AAVjbG9uZXNxAH4ACy3zQFt0AA5NZW1iZXJMaXN0ZW5lcnNxAH4AC2Q3WjJ0AAZzZW5kZXJzcQB+AAtkc7tidAAIdG9TdHJpbmdzcQB+AAtLzAc/dAACIT1zcQB+AAsrost9dAAIZ2V0Q2xhc3NzcQB+AAt9L7NxdAACbmVzcQB+AAvJZ6UhdAASc3VwZXJ2aXNvclN0cmF0ZWd5c3EAfgALAZq5anQAAmVxc3EAfgALKCXndnQAA2xvZ3NxAH4AC8BXrLF0AAIjI3NxAH4AC+O6Xr10AAhmaW5hbGl6ZXNxAH4ACynsssZ0AAhoYXNoQ29kZXNxAH4AC6a9nu90AA5hcm91bmRQcmVTdGFydHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AGd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABZza3lsaW5lLk1lbWJlckxpc3RlbmVydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgCAeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgB/AXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBnTAAJaW5oZXJpdGVkcQB+AGdMAAdwYXJlbnRzcQB+AGd4cQB+AIhzcQB+AH8BdXEAfgBiAAAAAHBzcQB+AH8BdXEAfgBiAAAAAHBzcQB+AH8BdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAARzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCHdAAMQWN0b3JMb2dnaW5nc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCHc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARha2thc3EAfgCgdAAFYWN0b3JzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AoXNxAH4AlHQABUFjdG9ycQB+AJpzcQB+AJR0AAZPYmplY3RzcQB+AJhzcQB+AJt1cQB+AJ4AAAADc3EAfgCgdAAEamF2YXNxAH4AoHQABGxhbmdxAH4Ap3NxAH4AlHQAA0FueXNxAH4AmHNxAH4Am3VxAH4AngAAAAJzcQB+AKB0AAVzY2FsYXEAfgCncHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgAMeHB0AAdza3lsaW5lc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFbFXpvenVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AFQvVm9sdW1lcy9NYWNpbnRvc2ggSEQvRHJvcGJveC92YWxvL3NhbXBsZXMvc2t5bGluZS1xdWVyaWVzL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABT1ngEvO4ejk20QRnrAlhJzmbn9Fw==
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCJg6ZCAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cATvo4V0AAZub3RpZnlzcQB+AAwstOMedAAEd2FpdHNxAH4ADOcEI2l0AAI8PXNxAH4ADLnIk3x0AA0kYXNJbnN0YW5jZU9mc3EAfgAMXkv8qnQABmVxdWFsc3NxAH4ADJ9Eu7Z0AAxhc0luc3RhbmNlT2ZzcQB+AAzYGtPmdAABPHNxAH4ADM9ZMoN0AAVQb2ludHNxAH4ADOHAox50AARkYXRhc3EAfgAMGtqwEHQADHN5bmNocm9uaXplZHNxAH4ADG4PrsJ0AA0kaXNJbnN0YW5jZU9mc3EAfgAMjmrRLXQAAj49c3EAfgAM9qoDxXQACW5vdGlmeUFsbHNxAH4ADEIhgHl0AAljb21wYXJlVG9zcQB+AAwykvtXdAAMaXNJbnN0YW5jZU9mc3EAfgAMZ1NaGnQABjxpbml0PnNxAH4ADMtKkzl0AAVhcHBseXNxAH4ADI33OLR0AAI9PXNxAH4ADEaI88t0AAlkb21pbmF0ZXNzcQB+AAzIx0+zdAAFY2xvbmVzcQB+AAxT+n4udAAIdG9TdHJpbmdzcQB+AAxWWtxEdAACIT1zcQB+AAzDo2o5dAAIZ2V0Q2xhc3NzcQB+AAwzhdj7dAACbmVzcQB+AAxkk3yYdAACZXFzcQB+AAz3E1trdAAHY29tcGFyZXNxAH4ADJXA9IR0AAE+c3EAfgAMvim8kXQAAiMjc3EAfgAMbWnJrnQACGZpbmFsaXplc3EAfgAMZP2lA3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AU3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQADXNreWxpbmUuUG9pbnR1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AGx4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGsBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFNMAAlpbmhlcml0ZWRxAH4AU0wAB3BhcmVudHNxAH4AU3hxAH4AdHNxAH4AawF1cQB+AE4AAAAAcHNxAH4AawF1cQB+AE4AAAAAcHNxAH4AawF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABHNyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGV0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7WwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBzc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4cQB+AIF4cQB+AHN0AAdPcmRlcmVkc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBzc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNxAH4Aj3QABG1hdGhzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AkHVxAH4AfgAAAAFzcQB+AIR0AAVQb2ludHNxAH4Ah3NxAH4AinVxAH4AjQAAAAJzcQB+AI90AAdza3lsaW5lcQB+AJZzcQB+AIBzcQB+AIR0AApDb21wYXJhYmxlc3EAfgCHc3EAfgCKdXEAfgCNAAAAA3NxAH4Aj3QABGphdmFzcQB+AI90AARsYW5ncQB+AJZ1cQB+AH4AAAABcQB+AJhzcQB+AIR0AAZPYmplY3RxAH4AonNxAH4AhHQAA0FueXNxAH4Ah3NxAH4AinVxAH4AjQAAAAJzcQB+AI9xAH4AknEAfgCWcHBzcQB+AFBxAH4AXXVxAH4AXgAAAABzcQB+AGAAdAANc2t5bGluZS5Qb2ludHVxAH4AYwAAAAB+cQB+AGV0AAZNb2R1bGV1cQB+AGkAAAAAc3EAfgBrAHBzcQB+AHBxAH4AdXNxAH4AawFzcQB+AHdzcQB+AGsBdXEAfgBOAAAAAHBzcQB+AGsBdXEAfgBOAAAAAHBzcQB+AGsBdXEAfgB+AAAAAnNxAH4AhHEAfgCrc3EAfgCHc3EAfgCKdXEAfgCNAAAAA3NxAH4Aj3EAfgCmc3EAfgCPcQB+AKhxAH4AlnNxAH4AhHEAfgCtc3EAfgCHc3EAfgCKdXEAfgCNAAAAAnNxAH4Aj3EAfgCScQB+AJZwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAB3NreWxpbmVzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVsVem96dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAVC9Wb2x1bWVzL01hY2ludG9zaCBIRC9Ecm9wYm94L3ZhbG8vc2FtcGxlcy9za3lsaW5lLXF1ZXJpZXMvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFLmNLrsYvft3GqTTqIKjeD02z6ph
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDJsrmgAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwjHstw3QABHNlbGZzcQB+AAvhRwQ9dAAHY29udGV4dHVxAH4ACQAAAD9zcQB+AAu4+Q8kdAAGbm90aWZ5c3EAfgALMp+N1XQAB3VuYXBwbHlzcQB+AAtTM8YxdAAMbG9jYWxTa3lsaW5lc3EAfgALlgZGPnQAB2N1cnJpZWRzcQB+AAsjLh7YdAAHUmVjZWl2ZXNxAH4AC6WlNcF0AAR3YWl0c3EAfgALZNktzXQADmNvcHkkZGVmYXVsdCQyc3EAfgALbAOK3HQADSRhc0luc3RhbmNlT2ZzcQB+AAueBy6PdAABbnNxAH4AC7JJ0+90AAdjb21wb3Nlc3EAfgALugHeaXQADHByb2R1Y3RBcml0eXNxAH4AC5iDIiR0AAZlcXVhbHNzcQB+AAtBjBNDdAAIU3RyZWFtZXJzcQB+AAt5qxWHdAAMYXNJbnN0YW5jZU9mc3EAfgALY5HBP3QADHN5bmNocm9uaXplZHNxAH4AC5Db9/10AA0kaXNJbnN0YW5jZU9mc3EAfgALCbKf5nQAB2FuZFRoZW5zcQB+AAtOxgPcdAAHcmVjZWl2ZXNxAH4AC6ZRTdl0AA5UZXJtaW5hdGlvbkFja3NxAH4AC2fDopZ0AApwcmVSZXN0YXJ0c3EAfgALGT06c3QABnR1cGxlZHNxAH4AC4rqGIl0AA1hcm91bmRSZWNlaXZlc3EAfgAL+LJGkXQACGNhbkVxdWFsc3EAfgALw1/hwnQACG1lZGlhdG9yc3EAfgALA6+apHQAC3Bvc3RSZXN0YXJ0c3EAfgALR51wBXQACHBvc3RTdG9wc3EAfgALVKERp3QADXByb2R1Y3RQcmVmaXhzcQB+AAsecqBedAAIaXRlcmF0b3JzcQB+AAsjS+zqdAAJbm90aWZ5QWxsc3EAfgALaVd8/HQAC3JlYWRSZXNvbHZlc3EAfgALdalQlnQACFNlbmROZXh0c3EAfgALDbTYS3QAAnRvc3EAfgALv4irQ3QAEWFyb3VuZFBvc3RSZXN0YXJ0c3EAfgALxSIDRXQABERvbmVzcQB+AAvaGq4vdAAMaXNJbnN0YW5jZU9mc3EAfgAL10TXUnQAEGFyb3VuZFByZVJlc3RhcnRzcQB+AAuoHMotdAAOYXJvdW5kUG9zdFN0b3BzcQB+AAuLHeWhdAAGPGluaXQ+c3EAfgALFaR4vHQACHByZVN0YXJ0c3EAfgALEYxuTHQACXVuaGFuZGxlZHNxAH4AC6KMEyZ0AAVhcHBseXNxAH4AC55NN+N0AAI9PXNxAH4AC0vrZs50AAZvcmlnaW5zcQB+AAsZWsHddAAFY2xvbmVzcQB+AAsyG3HOdAABcHNxAH4AC7anj4Z0AA5jb3B5JGRlZmF1bHQkM3NxAH4ACwWhrgV0AARjb3B5c3EAfgALO44vznQABnNlbmRlcnNxAH4AC6M5mZ10AAh0b1N0cmluZ3NxAH4AC8jVHCh0AAIhPXNxAH4AC1sWwel0AAhnZXRDbGFzc3NxAH4ACysBl090AA5jb3B5JGRlZmF1bHQkMXNxAH4AC5hbAzd0AAVwcm9wc3NxAH4ACzqMjbB0AAZGaWx0ZXJzcQB+AAvAmaKydAACbmVzcQB+AAsNNlZ7dAASc3VwZXJ2aXNvclN0cmF0ZWd5c3EAfgALkZ7mJHQAAmVxc3EAfgALnO96NnQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4AC0M6K6l0AAIjI3NxAH4AC6OT1Ip0AAhmaW5hbGl6ZXNxAH4AC+J8u6Z0AA5wcm9kdWN0RWxlbWVudHNxAH4AC1bEC490AAhoYXNoQ29kZXNxAH4ACzXF1FZ0AA5hcm91bmRQcmVTdGFydHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AJl4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABBza3lsaW5lLlN0cmVhbWVydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4Asnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AsQFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AmUwACWluaGVyaXRlZHEAfgCZTAAHcGFyZW50c3EAfgCZeHEAfgC6c3EAfgCxAXVxAH4AlAAAAABwc3EAfgCxAXVxAH4AlAAAAABwc3EAfgCxAXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AuXQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AuXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4A0nQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4A03NxAH4AxnQAA0FueXNxAH4AynNxAH4AzXVxAH4A0AAAAAJzcQB+ANJ0AAVzY2FsYXEAfgDZcHBzcQB+AJZxAH4Ao3VxAH4ApAAAAABzcQB+AKYAdAAQc2t5bGluZS5TdHJlYW1lcnVxAH4AqQAAAAB+cQB+AKt0AAhDbGFzc0RlZnVxAH4ArwAAAABzcQB+ALEAcHNxAH4AtnEAfgC7c3EAfgCxAXNxAH4AvXNxAH4AsQF1cQB+AJQAAAAAcHNxAH4AsQF1cQB+AJQAAAAAcHNxAH4AsQF1cQB+AMQAAAADc3EAfgDGdAAFQWN0b3JzcQB+AMpzcQB+AM11cQB+ANAAAAADc3EAfgDSdAAEYWtrYXNxAH4A0nQABWFjdG9ycQB+ANlzcQB+AMZxAH4AyXNxAH4AynNxAH4AzXVxAH4A0AAAAANzcQB+ANJxAH4A1XNxAH4A0nEAfgDXcQB+ANlzcQB+AMZxAH4A23NxAH4AynNxAH4AzXVxAH4A0AAAAAJzcQB+ANJxAH4A4HEAfgDZcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgAMeHB0AAdza3lsaW5lc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFbFXpvenVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AFQvVm9sdW1lcy9NYWNpbnRvc2ggSEQvRHJvcGJveC92YWxvL3NhbXBsZXMvc2t5bGluZS1xdWVyaWVzL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTlSq1syTGuets4U9NhZob33YjsrQ==
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHANzCX6AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwzBi7sHQABHNlbGZzcQB+AAshquqYdAAHY29udGV4dHVxAH4ACQAAADtzcQB+AAumdIcudAAGbm90aWZ5c3EAfgAL2GF+gHQAB3VuYXBwbHlzcQB+AAsWT7vsdAAMbG9jYWxTa3lsaW5lc3EAfgALYzksbnQAB2N1cnJpZWRzcQB+AAtBEhh1dAAHUmVjZWl2ZXNxAH4ACzfGTsJ0AAR3YWl0c3EAfgAL1MqV9HQADmNvcHkkZGVmYXVsdCQyc3EAfgALjC0Ak3QADSRhc0luc3RhbmNlT2ZzcQB+AAs/FACpdAAMcHJvZHVjdEFyaXR5c3EAfgALDwYYVHQABmVxdWFsc3NxAH4AC0Cr3z10AAxhc0luc3RhbmNlT2ZzcQB+AAtJ2/rodAANcmVtb3RlU2t5bGluZXNxAH4AC5F0aJx0AAxzeW5jaHJvbml6ZWRzcQB+AAv2CUZQdAANJGlzSW5zdGFuY2VPZnNxAH4AC8vOaal0AAdyZWNlaXZlc3EAfgALf1ytwXQACnByZVJlc3RhcnRzcQB+AAvauBYxdAAGdHVwbGVkc3EAfgALIYs4tHQADWFyb3VuZFJlY2VpdmVzcQB+AAuJOE4LdAAIY2FuRXF1YWxzcQB+AAtQFveBdAAIbWVkaWF0b3JzcQB+AAuxYxYKdAALcG9zdFJlc3RhcnRzcQB+AAs/4+qydAAIcG9zdFN0b3BzcQB+AAv12C4fdAANcHJvZHVjdFByZWZpeHNxAH4AC2w3emh0AAR3b3Jrc3EAfgALIvXHi3QACW5vdGlmeUFsbHNxAH4AC27VMqF0AAtyZWFkUmVzb2x2ZXNxAH4ACz7ypl90ABFhcm91bmRQb3N0UmVzdGFydHNxAH4AC8Jji1d0AAxpc0luc3RhbmNlT2ZzcQB+AAvg+OMcdAAQYXJvdW5kUHJlUmVzdGFydHNxAH4ACw+VPHN0AA5hcm91bmRQb3N0U3RvcHNxAH4AC0kAaJx0AAY8aW5pdD5zcQB+AAtUK1N3dAAIcHJlU3RhcnRzcQB+AAsEWJkpdAAJdW5oYW5kbGVkc3EAfgALm4G7jHQABWFwcGx5c3EAfgALBoa5KnQAAj09c3EAfgALvR+cv3QABWNsb25lc3EAfgALzmCn7XQADmNvcHkkZGVmYXVsdCQzc3EAfgALqpxA1HQABGNvcHlzcQB+AAsw+/cndAAGc2VuZGVyc3EAfgALoYKrwXQACHRvU3RyaW5nc3EAfgAL/6oIC3QAAiE9c3EAfgALC98sx3QACGdldENsYXNzc3EAfgALgqT7X3QABldvcmtlcnNxAH4AC75ER/x0AA5jb3B5JGRlZmF1bHQkMXNxAH4ACxlRfB90AAVwcm9wc3NxAH4AC0jTm350AA9JZGVudGlmaWVkUG9pbnRzcQB+AAtm+B6NdAACbmVzcQB+AAuY3eCedAAFdmFsdWVzcQB+AAtBuKekdAASc3VwZXJ2aXNvclN0cmF0ZWd5c3EAfgALrBonrHQAAmVxc3EAfgAL7smWn3QAD3Byb2R1Y3RJdGVyYXRvcnNxAH4AC3JguKR0AApvdGhlckxvY2Fsc3EAfgALUnfzNHQAAiMjc3EAfgALlJGuK3QACGZpbmFsaXplc3EAfgALpcnkRHQADnByb2R1Y3RFbGVtZW50c3EAfgALtAEKEXQACGhhc2hDb2Rlc3EAfgALbHXN43QADmFyb3VuZFByZVN0YXJ0c3EAfgALoeEUCnQABndvcmtlcnNxAH4AC2590M90AAROZXh0c3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AkXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQADnNreWxpbmUuV29ya2VydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgCpAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgCRTAAJaW5oZXJpdGVkcQB+AJFMAAdwYXJlbnRzcQB+AJF4cQB+ALBzcQB+AKkBdXEAfgCMAAAAAHBzcQB+AKkBdXEAfgCMAAAAAHBzcQB+AKkBdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AAxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCvdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCvc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgDIdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgDJc3EAfgC8dAADQW55c3EAfgDAc3EAfgDDdXEAfgDGAAAAAnNxAH4AyHQABXNjYWxhcQB+AM9wcHNxAH4AjnEAfgCbdXEAfgCcAAAAAHNxAH4AngB0AA5za3lsaW5lLldvcmtlcnVxAH4AoQAAAAB+cQB+AKN0AAhDbGFzc0RlZnVxAH4ApwAAAABzcQB+AKkBcQB+ALFwc3EAfgCpAXNxAH4As3NxAH4AqQF1cQB+AIwAAAAAcHNxAH4AqQF1cQB+AIwAAAAAcHNxAH4AqQF1cQB+ALoAAAADc3EAfgC8dAAFQWN0b3JzcQB+AMBzcQB+AMN1cQB+AMYAAAADc3EAfgDIdAAEYWtrYXNxAH4AyHQABWFjdG9ycQB+AM9zcQB+ALxxAH4Av3NxAH4AwHNxAH4Aw3VxAH4AxgAAAANzcQB+AMhxAH4Ay3NxAH4AyHEAfgDNcQB+AM9zcQB+ALxxAH4A0XNxAH4AwHNxAH4Aw3VxAH4AxgAAAAJzcQB+AMhxAH4A1nEAfgDPcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgAMeHB0AAdza3lsaW5lc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFbFjv01nVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADEwAD3NvdXJjZURpcmVjdG9yeXEAfgAMeHB0AFQvVm9sdW1lcy9NYWNpbnRvc2ggSEQvRHJvcGJveC92YWxvL3NhbXBsZXMvc2t5bGluZS1xdWVyaWVzL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABR8WrjebA1wXSKaWX6v54m27FMmkg==
 external apis:
 0 items
 source infos:
 5 items
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> 
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Main.scala -> 
 AAAAAAAAAAA=
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> 
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/MemberListener.scala -> 
 AAAAAAAAAAA=
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> 
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Point.scala -> 
 AAAAAAAAAAA=
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> 
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Streamer.scala -> 
 AAAAAAAAAAA=
-/home/otorreno/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> 
+/Volumes/Macintosh HD/Dropbox/valo/samples/skyline-queries/src/main/scala/skyline/Worker.scala -> 
 AAAAAAAAAAA=
 compilations:
-92 items
+95 items
 00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvGqanZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATS9ob21lL290b3JyZW5vL0Ryb3Bib3gvdmFsby9zYW1wbGVzL3NreWxpbmUtcXVlcmllcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvGrBY11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATS9ob21lL290b3JyZW5vL0Ryb3Bib3gvdmFsby9zYW1wbGVzL3NreWxpbmUtcXVlcmllcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvGrFHJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATS9ob21lL290b3JyZW5vL0Ryb3Bib3gvdmFsby9zYW1wbGVzL3NreWxpbmUtcXVlcmllcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
@@ -622,3 +648,6 @@ compilations:
 89 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvfPRup1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATS9ob21lL290b3JyZW5vL0Ryb3Bib3gvdmFsby9zYW1wbGVzL3NreWxpbmUtcXVlcmllcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 90 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvfQSfN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATS9ob21lL290b3JyZW5vL0Ryb3Bib3gvdmFsby9zYW1wbGVzL3NreWxpbmUtcXVlcmllcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
 91 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvf/+kp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQATS9ob21lL290b3JyZW5vL0Ryb3Bib3gvdmFsby9zYW1wbGVzL3NreWxpbmUtcXVlcmllcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+92 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWxV6b3p1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVC9Wb2x1bWVzL01hY2ludG9zaCBIRC9Ecm9wYm94L3ZhbG8vc2FtcGxlcy9za3lsaW5lLXF1ZXJpZXMvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+93 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWxYMHtN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVC9Wb2x1bWVzL01hY2ludG9zaCBIRC9Ecm9wYm94L3ZhbG8vc2FtcGxlcy9za3lsaW5lLXF1ZXJpZXMvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+94 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWxY79NZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAVC9Wb2x1bWVzL01hY2ludG9zaCBIRC9Ecm9wYm94L3ZhbG8vc2FtcGxlcy9za3lsaW5lLXF1ZXJpZXMvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=

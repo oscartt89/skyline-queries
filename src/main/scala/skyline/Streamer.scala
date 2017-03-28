@@ -6,12 +6,13 @@ import akka.actor.ActorRef
 import akka.actor.Props
 import akka.cluster.pubsub.DistributedPubSub
 import akka.cluster.pubsub.DistributedPubSubMediator.{Publish, Subscribe}
+import scala.collection.mutable.SortedSet
 
 object Streamer {
   def props(topic: String, stream: Stream[Point], nWorkers: Int): Props = Props(classOf[Streamer], topic, stream, nWorkers)
 
   case class SendNext(to: ActorRef)
-  case class Filter(origin: String, p: Point)
+  case class Filter(origin: String, p: Point, localSkyline: SortedSet[Point])
   case class Done()
   case class TerminationAck()
 }
