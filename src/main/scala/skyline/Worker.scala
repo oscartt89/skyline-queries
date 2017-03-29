@@ -4,40 +4,47 @@ import akka.actor.Actor
 import akka.actor.ActorRef
 import akka.actor.Props
 import akka.cluster.pubsub.DistributedPubSub
-import akka.cluster.pubsub.DistributedPubSubMediator.{Publish, Put, SendToAll}
+import akka.cluster.pubsub.DistributedPubSubMediator.{Publish, Subscribe}
 import scala.collection.mutable.SortedSet
+import scala.concurrent.duration._
 
 object Worker {
-  def props(in: String, name: String) = Props(new Worker(in, name))
+  def props(in: String, query: String, name: String) = Props(new Worker(in, query, name))
   case class Next()
-  case class IdentifiedPoint(worker: String, value: Point, otherLocal: SortedSet[Point])
+  case class Filter(origin: String, p: Point, localSkyline: SortedSet[Point])
 }
 
-class Worker(in: String, name: String) extends Actor {
+class Worker(in: String, query: String, name: String) extends Actor {
   val mediator = DistributedPubSub(context.system).mediator
   var localSkyline: SortedSet[Point] = SortedSet.empty[Point]
   var remoteSkyline: Map[String, SortedSet[Point]] = Map[String, SortedSet[Point]]()
+  var queryActor = self
 
-  //mediator ! Put(self)
+  mediator ! Subscribe(query, self)
 
   self ! Worker.Next()
 
   def receive = {
     case Worker.Next() => mediator ! Publish(in, Streamer.SendNext(self))
     case i: Point => {
+      //println(name + "got point: " + i)
       val point = work(i)
       point match {
         case Some(value) => {
-          context.actorSelection("../**") ! Streamer.Filter(name, value, localSkyline)
-          //mediator ! SendToAll(path = "../**", msg = Streamer.Filter(name, value), allButSelf = false)
-          //mediator ! Publish(in, Streamer.Filter(name, value))
-          //self ! Streamer.Filter(name, value)
+          context.actorSelection("../**") ! Worker.Filter(name, value, localSkyline)
+          if(queryActor != self) {
+            val result = localSkyline
+            for((ww, remote) <- remoteSkyline) {
+              result ++= remote.filter(!i.dominates(_))
+            }
+            queryActor ! QueryActor.Skyline(result)
+          }
         }
         case None => {}
       }
       self ! Worker.Next()
     }
-    case Streamer.Filter(w, value, otherLocal) => {
+    case Worker.Filter(w, value, otherLocal) => {
       if(w != name){
         //Update the local skyline
         if(localSkyline.exists(value.dominates(_)))
@@ -47,12 +54,9 @@ class Worker(in: String, name: String) extends Actor {
         remoteSkyline += (w -> otherLocal)
       }
     }
-    case Streamer.Done() => {
-      //Sending finalisation message to the writer
-      //println(name + " forwarding the shutdown message to the writer")
-      //println(localSkyline.mkString(", "))
-      mediator ! Publish(in, Streamer.TerminationAck())
-      context.stop(self)
+    case QueryActor.SkylineQuery(qA) => {
+      //println(name + " will be serving the queries")
+      queryActor = qA
     }
   }
 

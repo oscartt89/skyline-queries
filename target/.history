@@ -419,3 +419,23 @@ run 10 2 10 1
 run 10 3 10 1
 run 10 2 10 2
 run 10 2 10 4
+compile
+run 2
+compile
+run 2
+compile
+compile -feature
+compile
+run 2
+compile
+run 2
+compile
+run 2
+compile
+run 2
+compile
+run 2
+compile
+run 2
+compile
+run 2

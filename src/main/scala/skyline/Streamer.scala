@@ -1,45 +1,48 @@
 package skyline
 
 import akka.actor.Actor
-import akka.actor.PoisonPill
 import akka.actor.ActorRef
 import akka.actor.Props
 import akka.cluster.pubsub.DistributedPubSub
 import akka.cluster.pubsub.DistributedPubSubMediator.{Publish, Subscribe}
-import scala.collection.mutable.SortedSet
+import scala.collection.mutable.Queue
 
 object Streamer {
-  def props(topic: String, stream: Stream[Point], nWorkers: Int): Props = Props(classOf[Streamer], topic, stream, nWorkers)
+  def props(topic: String, nWorkers: Int): Props = Props(classOf[Streamer], topic, nWorkers)
 
   case class SendNext(to: ActorRef)
-  case class Filter(origin: String, p: Point, localSkyline: SortedSet[Point])
-  case class Done()
-  case class TerminationAck()
+  case class AddPoint(p: Point)
 }
 
-class Streamer(topic: String, stream: Stream[Point], nWorkers: Int) extends Actor {
+class Streamer(topic: String, nWorkers: Int) extends Actor {
   val mediator = DistributedPubSub(context.system).mediator
-  val iterator = stream.iterator
+  var queue = Queue.empty[Point]
+  var waitingActors = Queue.empty[ActorRef]
   var n = nWorkers
+  var nextActor = self
 
   mediator ! Subscribe(topic, self)
 
   def receive = {
     case Streamer.SendNext(to) => {
-      if(iterator.hasNext) {
-        val point = iterator.next()
-        //println("Streamer sending point: " + point)
+      if(!queue.isEmpty) {
+        val point = queue.dequeue
         to ! point
       } else {
-        to ! Streamer.Done()
-        //println("stream empty. sending shutdown message to the workers")
+        //Queue is empty, adding actor 'to' to the waitingActors queue
+        waitingActors += to
       }
     }
-    case Streamer.TerminationAck() => {
-      n = n - 1
-      if(n == 0)
-        context.system.terminate()
+    case Streamer.AddPoint(p) => {
+      //println("Received point: " + p)
+      queue += p
+      //Check who was waiting
+      if(!waitingActors.isEmpty){
+        //Sending to a ready worker in the requests order
+        nextActor = waitingActors.dequeue
+        nextActor ! p
+        queue.dequeue
+      }
     }
   }
-
 }
